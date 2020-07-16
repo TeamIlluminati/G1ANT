@@ -11,7 +11,7 @@ namespace G1ANT.Addon.Youtube
     [Addon(Name = "Youtube", Tooltip = "Automates the Youtube site")]
     [Copyright(Author = "", Copyright = "", Email = "support@g1ant.com", Website = "www.g1ant.com")]
     [License(Type = "LGPL", ResourceName = "License.txt")]
-    [CommandGroup(Name = "linkedin", Tooltip = "")]
+    [CommandGroup(Name = "youtube", Tooltip = "")]
     public class YoutubeAddon : Language.Addon
     {
 
