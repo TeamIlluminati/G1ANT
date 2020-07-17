@@ -19,7 +19,7 @@ namespace G1ANT.Addon.Linkedin
         public class Arguments : SeleniumCommandArguments
         {
             [Argument(Required = true, Tooltip = "Enter the value to be followed ")]
-            public TextStructure searchvalue { get; set; }
+            public TextStructure tofollow { get; set; }
 
             public override TimeSpanStructure Timeout { get; set; } = new TimeSpanStructure(SeleniumSettings.SeleniumTimeout);
         }
@@ -33,7 +33,7 @@ namespace G1ANT.Addon.Linkedin
                 arguments.By.Value = "class";
                 SeleniumManager.CurrentWrapper.Click(arguments, arguments.Timeout.Value);
 
-                SeleniumManager.CurrentWrapper.TypeText(arguments.searchvalue.Value, arguments, arguments.Timeout.Value);
+                SeleniumManager.CurrentWrapper.TypeText(arguments.tofollow.Value, arguments, arguments.Timeout.Value);
                 Thread.Sleep(1000);
 
 
