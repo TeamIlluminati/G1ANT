@@ -8,7 +8,7 @@ using G1ANT.Language;
 
 namespace G1ANT.Addon.Youtube
 {
-    [Command(Name = "youtube.play", Tooltip = "This command will like a youtube video")]
+    [Command(Name = "youtube.play", Tooltip = "This command will play a youtube video")]
 
     class YoutubePlayCommand : Command
     {
@@ -18,7 +18,7 @@ namespace G1ANT.Addon.Youtube
         }
         public class Arguments : SeleniumCommandArguments
         {
-            [Argument(Required = true, Tooltip = "Name of a video to like")]
+            [Argument(Required = true, Tooltip = "Name of a video to play")]
             public TextStructure video { get; set; } = new TextStructure(string.Empty);
 
             [Argument(DefaultVariable = "timeoutselenium", Tooltip = "Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed")]
