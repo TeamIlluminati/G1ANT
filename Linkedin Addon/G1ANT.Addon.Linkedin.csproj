@@ -99,8 +99,11 @@
     <Compile Include="Api\SeleniumSettings.cs" />
     <Compile Include="Api\SeleniumWrapper.cs" />
     <Compile Include="Commands\LinkedinLoginCommand.cs" />
+    <Compile Include="LinkedinDisplayCommand.cs" />
     <Compile Include="LinkedinAddon.cs" />
+    <Compile Include="LinkedinConnectionCommand.cs" />
     <Compile Include="LinkedinFollowCommand.cs" />
+    <Compile Include="LinkedinLikeCommand.cs" />
     <Compile Include="LinkedinMakeConnectionCommand.cs" />
     <Compile Include="LinkedinSearchCommand.cs" />
     <Compile Include="LinkedinPostCommand.cs" />
