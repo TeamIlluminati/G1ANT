@@ -101,7 +101,7 @@
     <Compile Include="Commands\LinkedinLoginCommand.cs" />
     <Compile Include="LinkedinDisplayCommand.cs" />
     <Compile Include="LinkedinAddon.cs" />
-    <Compile Include="LinkedinConnectionCommand.cs" />
+    <Compile Include="LinkedinConnectionsCommand.cs" />
     <Compile Include="LinkedinFollowCommand.cs" />
     <Compile Include="LinkedinLikeCommand.cs" />
     <Compile Include="LinkedinMakeConnectionCommand.cs" />
