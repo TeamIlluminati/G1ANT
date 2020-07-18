@@ -9,7 +9,7 @@ using RestSharp;
 
 namespace G1ANT.Addon.Facebook
 {
-    [Command(Name = "facebook.getfriends", Tooltip = "This retrieves the names of users for a given profile.")]
+    [Command(Name = "facebook.getfriends", Tooltip = "This command retrieves the names of friends for a given profile.")]
     class FacebookGetFriendsCommand: Command
     {
         public FacebookGetFriendsCommand(AbstractScripter scripter) : base(scripter)

@@ -8,7 +8,7 @@ using RestSharp;
 
 namespace G1ANT.Addon.Facebook
 {
-    [Command(Name = "facebook.getpageposts", Tooltip = "This retrieves posts from a given page.")]
+    [Command(Name = "facebook.getpageposts", Tooltip = "This command retrieves posts from a given page.")]
     class FacebookGetPagePostsCommand : Command
     {
         public FacebookGetPagePostsCommand(AbstractScripter scripter) : base(scripter)
