@@ -8,7 +8,7 @@ using System.IO;
 
 namespace G1ANT.Addon.Youtube
 {
-    [Addon(Name = "Youtube", Tooltip = "Automates the Youtube site")]
+    [Addon(Name = "youtube", Tooltip = "Addon to automate the Youtube website")]
     [Copyright(Author = "", Copyright = "", Email = "support@g1ant.com", Website = "www.g1ant.com")]
     [License(Type = "LGPL", ResourceName = "License.txt")]
     [CommandGroup(Name = "youtube", Tooltip = "")]
