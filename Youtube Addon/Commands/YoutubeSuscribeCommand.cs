@@ -7,7 +7,7 @@ using G1ANT.Language;
 
 namespace G1ANT.Addon.Youtube
 {
-    [Command(Name = "youtube.suscribe", Tooltip = "This command will suscribe a youtube channelzx")]
+    [Command(Name = "youtube.suscribe", Tooltip = "This command will suscribe a youtube channel")]
 
     class YoutubeSuscribeCommand : Command
     {

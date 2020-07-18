@@ -19,7 +19,7 @@ namespace G1ANT.Addon.Youtube
         public class Arguments : SeleniumCommandArguments
         {
             [Argument(Required = true, Tooltip = "Name of a web browser")]
-            public TextStructure Type { get; set; } = new TextStructure(string.Empty);
+            public TextStructure type { get; set; } = new TextStructure(string.Empty);
 
             [Argument(DefaultVariable = "timeoutselenium", Tooltip = "Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed")]
             public override TimeSpanStructure Timeout { get; set; } = new TimeSpanStructure(SeleniumSettings.SeleniumTimeout);
@@ -32,7 +32,7 @@ namespace G1ANT.Addon.Youtube
             try
             {
                 SeleniumWrapper wrapper = SeleniumManager.CreateWrapper(
-                        arguments.Type.Value,
+                        arguments.type.Value,
                         "youtube.com",
                         arguments.Timeout.Value,
                         false,
