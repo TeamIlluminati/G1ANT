@@ -123,7 +123,6 @@
     <Compile Include="Api\SeleniumWrapper.cs" />
     <Compile Include="Commands\FacebookGetGroupPosts.cs" />
     <Compile Include="Commands\FacebookGetPagePosts.cs" />
-    <Compile Include="Commands\FacebookGroupInvite.cs" />
     <Compile Include="Commands\FacebookGroupPostCommand.cs" />
     <Compile Include="Commands\FacebookPagePostCommand.cs" />
     <Compile Include="Commands\FacebookGetFriendsCommand.cs" />
