@@ -11,7 +11,7 @@ using G1ANT.Language;
 namespace G1ANT.Addon.Naukri
 {
     [Addon(Name = "Naukri", Tooltip = "Addon to automate naukri.com")]
-    [Copyright(Author = "G1ant Ltd", Copyright = "G1ant Ltd", Email = "support@g1ant.com", Website = "www.g1ant.com")]
+    [Copyright(Author = "G1ant Ltd", Copyright = "G1ant Ltd", Email = "hi@g1ant.com", Website = "www.g1ant.com")]
     [License(Type = "LGPL", ResourceName = "License.txt")]
     //[CommandGroup(Name = "", Tooltip = "")]
     public class Addon : Language.Addon
