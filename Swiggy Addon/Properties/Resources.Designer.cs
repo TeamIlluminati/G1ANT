@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace G1ANT.Addon.Selenium.Properties
+namespace G1ANT.Addon.Swiggy.Properties
 {
     using System;
 
