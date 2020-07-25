@@ -1,7 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
+using G1ANT.Addon.Naukri.Properties;
 using G1ANT.Language;
 
 // Please remember to refresh G1ANT.Language.dll in references
