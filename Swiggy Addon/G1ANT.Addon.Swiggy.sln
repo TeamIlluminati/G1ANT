@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G1ANT.Addon.Swiggy", "G1ANT.Addon.Swiggy.csproj", "{264F739B-D612-4445-A409-6F08DDE059B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{264F739B-D612-4445-A409-6F08DDE059B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264F739B-D612-4445-A409-6F08DDE059B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264F739B-D612-4445-A409-6F08DDE059B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264F739B-D612-4445-A409-6F08DDE059B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECE5E9A4-4E80-41C3-A02E-C319DE595D49}
+	EndGlobalSection
+EndGlobal
