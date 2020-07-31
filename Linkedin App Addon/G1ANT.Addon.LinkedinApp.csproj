@@ -118,6 +118,7 @@
     <Compile Include="LinkedinAppPrepCommand.cs" />
     <Compile Include="LinkedinAppSavedJobsCommand.cs" />
     <Compile Include="LinkedinAppSearchCommand.cs" />
+    <Compile Include="LinkedinAppCloseCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

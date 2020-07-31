@@ -28,7 +28,7 @@ namespace G1ANT.Addon.LinkedinApp
 
         private static AndroidElement GetElementById(string id)
         {
-            var driver = LinkedinAppOpenCommand.GetDriver();
+            var driver = OpenCommand.GetDriver();
             var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(7));
 
             try
@@ -44,7 +44,7 @@ namespace G1ANT.Addon.LinkedinApp
 
         private static AndroidElement GetElementByAccessibilityId(string accessibilityId)
         {
-            var driver = LinkedinAppOpenCommand.GetDriver();
+            var driver = OpenCommand.GetDriver();
             var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(7));
 
             try
@@ -60,7 +60,7 @@ namespace G1ANT.Addon.LinkedinApp
 
         private static AndroidElement GetElementByPartialId(string partialId)
         {
-            var driver = LinkedinAppOpenCommand.GetDriver();
+            var driver = OpenCommand.GetDriver();
             var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(7));
 
             try
@@ -76,7 +76,7 @@ namespace G1ANT.Addon.LinkedinApp
 
         private static AndroidElement GetElementByText(string text)
         {
-            var driver = LinkedinAppOpenCommand.GetDriver();
+            var driver = OpenCommand.GetDriver();
             var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(7));
 
             try
@@ -92,7 +92,7 @@ namespace G1ANT.Addon.LinkedinApp
 
         private static AndroidElement GetElementByXpath(string xpath)
         {
-            var driver = LinkedinAppOpenCommand.GetDriver();
+            var driver = OpenCommand.GetDriver();
             var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(7));
 
             try
