@@ -9,7 +9,7 @@ using System.Threading;
 
 namespace G1ANT.Addon.IRCTC
 {
-    [Command(Name = "irctc.login", Tooltip = "This command opnes login page on irctc ")]
+    [Command(Name = "irctc.login", Tooltip = "This command sign-in the user on irctc ")]
     public class IRCTCLoginCommand : Command
     {
         public IRCTCLoginCommand(AbstractScripter scripter) : base(scripter)
