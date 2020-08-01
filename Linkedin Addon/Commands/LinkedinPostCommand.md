@@ -28,10 +28,10 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens linkedin and login with the credential which user will give and then follow the person user will give input like here,Bill Gates.
+This simple script opens linkedin and login with the credential which user will give and then post then post content on Linkedin which user will give.
 
 ```G1ANT
 linkedin.login email <Enter your email-id here> pword <Enter your password here>
-delay 5000
+delay 5
 linkedin.post topost ‴This is a Trial Post.‴
 ```
