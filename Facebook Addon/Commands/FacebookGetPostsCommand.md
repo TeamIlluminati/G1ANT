@@ -1,4 +1,4 @@
-# facebook.getfriends
+# facebook.getposts
 
 ## Syntax
 
