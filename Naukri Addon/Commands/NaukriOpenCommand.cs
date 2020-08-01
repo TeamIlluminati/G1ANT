@@ -32,7 +32,7 @@ namespace G1ANT.Addon.Naukri
             {
                 SeleniumWrapper wrapper = SeleniumManager.CreateWrapper(
                         arguments.type.Value,
-                        "youtube.com",
+                        "naukri.com",
                         arguments.Timeout.Value,
                         false,
                         Scripter.Log,
