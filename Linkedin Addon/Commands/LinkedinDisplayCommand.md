@@ -28,6 +28,6 @@ This simple script opens linkedin and login with the credential which user will 
 
 ```G1ANT
 linkedin.login email <Enter your email-id here> pword <Enter your password here>
-delay 5000
+delay 5
 linkedin.display
 ```
