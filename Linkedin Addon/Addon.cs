@@ -9,7 +9,7 @@ using System.IO;
 namespace G1ANT.Addon.Linkedin
 {
     [Addon(Name = "Linkedin", Tooltip = "Addon to automate the LinkedIn site")]
-    [Copyright(Author = "", Copyright = "", Email = "support@g1ant.com", Website = "www.g1ant.com")]
+    [Copyright(Author = "G1ant Ltd", Copyright = "G1ant Ltd", Email = "hi@g1ant.com", Website = "www.g1ant.com")]
     [License(Type = "LGPL", ResourceName = "License.txt")]
     [CommandGroup(Name = "linkedin", Tooltip = "")]
     public class LinkedinAddon : Language.Addon
