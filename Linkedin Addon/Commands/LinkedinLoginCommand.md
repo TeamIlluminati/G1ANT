@@ -30,5 +30,5 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 This simple script opens linkedin and login with the credential which user will give;
 
 ```G1ANT
-linkedin.login email <Enter your loginid here> pword <Enter your password here>
+linkedin.login email <Enter your email-id here> pword <Enter your password here>
 ```
