@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-irctc.ecatering username ⟦text⟧ password ⟦text⟧
+irctc.ecatering pnr ⟦text⟧
 ```
 
 ## Description
