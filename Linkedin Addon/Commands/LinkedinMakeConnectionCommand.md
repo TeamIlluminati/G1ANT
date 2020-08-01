@@ -35,6 +35,6 @@ This simple script opens linkedin and login with the credential which user will 
 
 ```G1ANT
 linkedin.login email <Enter your email-id here> pword <Enter your password here>
-delay 8000
+delay 8
 linkedin.makeconnection connect rahul-rai-3790029/
 ```
