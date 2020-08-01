@@ -28,7 +28,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This script opens chrome browser and runs a search for the required input;
+This script opens chrome browser and runs a search in Linkedin for the given input.
 
 ```G1ANT
 linkedin.login email <Enter your loginid here> pword <Enter your password here>
