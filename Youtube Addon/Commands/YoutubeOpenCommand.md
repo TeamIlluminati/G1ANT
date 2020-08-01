@@ -13,6 +13,7 @@ This command will open youtube in user specified browser.
 | Argument         | Type       | Required   | Default Value                                               | Description                                                 |
 | ---------------- | ---------- | ---------- | ----------------------------------------------------------- | ----------------------------- |
 | `type`          | [text]     | yes        |                                                             | Name of a web browser|
+|  `result`       | [text]  |no   | ♥result   |Name of a variable where the command's result will be stored |
 | `if`             | [bool]     | no         | true                                                        | Executes the command only if a specified condition is true   |
 | `timeout`        | [timespan  | no         | [♥timeoutcommand]                                           | Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
 | `errorcall`      | [procedure]| no         |                                                             | Name of a procedure to call when the command throws an exception or when a given `timeout` expires |
