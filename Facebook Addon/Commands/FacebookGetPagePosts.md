@@ -12,7 +12,7 @@ This command is used to used to get posts from a Facebook group of which you are
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
-| `accesstoken`          | [text]     |yes       |                                                             |Enter the page accesstoken           |
+| `accesstoken`          | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)     |yes       |                                                             |Enter the page accesstoken           |
 |  `numberofposts`             | [integer](https://manual.g1ant.com/G1ANT.Addons/G1ANT.Language/Structures/IntegerStructure.md)     |yes    |                                                            |Enter the number of posts you want    |
 |  `result`       | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)  |yes   | ♥result   |Name of a variable where the command's result will be stored |
 | `if`             | [bool](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/BooleanStructure.md)     | no       | true                                                        | Executes the command only if a specified condition is true   |
