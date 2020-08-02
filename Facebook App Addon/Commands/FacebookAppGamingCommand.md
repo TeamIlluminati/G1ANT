@@ -8,7 +8,7 @@ fbapp.gaming
 
 ## Description
 
-This command open gaming sections in Facebook app
+This command open gaming section in Facebook app
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
