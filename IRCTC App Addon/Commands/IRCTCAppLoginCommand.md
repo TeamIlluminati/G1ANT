@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-irctcapp.login pnr ⟦text⟧
+irctcapp.login pin ⟦text⟧
 ```
 
 ## Description
@@ -12,7 +12,7 @@ This command logins the user into the app. \nMake sure you have already signed i
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
-|   `pnr`  |  [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)  |yes  |     | Enter 4-digit pin to login in app|
+|   `pin`  |  [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)  |yes  |     | Enter 4-digit pin to login in app|
 |  `result`  | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)  |no   | ♥result   |Name of a variable where the command's result will be stored |
 | `if`  | [bool](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/BooleanStructure.md) | no       | true                                                        | Executes the command only if a specified condition is true   |
 | `timeout` | [timespan](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TimeSpanStructure.md) | no       | [♥timeoutcommand](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Addon.Core/Variables/TimeoutCommandVariable.md) | Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
@@ -30,5 +30,5 @@ This simple script opens a IRCTC application in user's android device and then l
 ```G1ANT
 irctcapp.open
 delay 8
-irctcapp.login pnr <Enter your pin here> 
+irctcapp.login pin <Enter your pin here> 
 ```
