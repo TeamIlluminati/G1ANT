@@ -24,7 +24,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a Youtube application in user's android device and then after a delay of 8 seconds and then close the youtube application.
+This simple script opens an IRCTC application in user's android device and then after a delay of 8 seconds and then close the IRCTC application.
 
 ```G1ANT
 irctcapp.open
