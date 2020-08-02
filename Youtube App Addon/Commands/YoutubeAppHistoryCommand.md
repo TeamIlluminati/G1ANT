@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-youtubeapp.history
+youtubeapp.history Search ⟦text⟧ By ⟦text⟧
 ```
 
 ## Description
@@ -12,6 +12,8 @@ This command opens user's history in Youtube app.
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
+|   `Search`     | [text]  | yes  |  Library         |Provide name of the selector |
+|   `By`         |   [text]   | yes  | AccessibilityId  | Provide element ID  |
 |  `result`       | [text]  |no   | ♥result   |Name of a variable where the command's result will be stored |
 | `if`             | [bool]     | no       | true                                                        | Executes the command only if a specified condition is true   |
 | `timeout`        | [timespan  | no       | [♥timeoutcommand]| Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
@@ -29,5 +31,5 @@ This simple script opens a Youtube application in user's android device and then
 ```G1ANT
 youtubeapp.open
 delay 8
-youtubeapp.history
+youtubeapp.history Search Library By AccessibilityId
 ```
