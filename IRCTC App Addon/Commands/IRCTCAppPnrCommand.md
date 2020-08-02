@@ -30,5 +30,5 @@ This simple script opens a IRCTC application in user's android device and then o
 ```G1ANT
 irctcapp.open
 delay 8
-irctcapp.pnr pnr <Enter your pin 
+irctcapp.pnr pnr <Enter your pin> 
 ```
