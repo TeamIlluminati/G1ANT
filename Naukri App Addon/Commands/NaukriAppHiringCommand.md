@@ -26,7 +26,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 This simple script opens Naukri.com application in user's android device and then open Hiring Tracker in app.
 
 ```G1ANT
-naukriapp.hiring
+naukriapp.open
 delay 8
 naukriapp.hiring
 ```
