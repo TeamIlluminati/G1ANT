@@ -27,7 +27,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script logins the user in Youtube website.
+This simple script logins the user in IRCTC website.
 
 ```G1ANT
 irctc.open Type ‴chrome‴ 
