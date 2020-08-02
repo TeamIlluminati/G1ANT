@@ -1,25 +1,23 @@
 ﻿using System;
-using System.Threading;
 using G1ANT.Language;
 using OpenQA.Selenium.Appium.MultiTouch;
 using OpenQA.Selenium.Remote;
 
-
 namespace G1ANT.Addon.YoutubeApp
 {
-    [Command(Name = "youtubeapp.history", Tooltip = "This command opens user's history in Youtube app")]
-    public class YoutubeAppHistoryCommand : Language.Command
+    [Command(Name = "youtubeapp.explore", Tooltip = "This command opens explore section in Youtube app")]
+    public class YoutubeAppExploreCommand : Language.Command
     {
         public class Arguments : CommandArguments
         {
             [Argument(Required = false, Tooltip = "Provide name of the selector")]
-            public TextStructure Search { get; set; } = new TextStructure("Library");
+            public TextStructure Search { get; set; } = new TextStructure("Explore");
 
             [Argument(Required = false, Tooltip = "Provide element ID")]
             public TextStructure By { get; set; } = new TextStructure("AccessibilityId");
         }
 
-        public YoutubeAppHistoryCommand(AbstractScripter scripter) : base(scripter)
+        public YoutubeAppExploreCommand(AbstractScripter scripter) : base(scripter)
         {
 
         }
@@ -38,11 +36,6 @@ namespace G1ANT.Addon.YoutubeApp
             {
                 ElementHelper.GetElement(by, arguments.Search.Value).Click();
             }
-            Thread.Sleep(3000);
-            arguments.Search.Value = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.view.ViewGroup[2]/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]";
-            arguments.By.Value = "xpath";
-            ElementHelper.GetElement(arguments.By.Value, arguments.Search.Value).Click();
-
         }
     }
 }

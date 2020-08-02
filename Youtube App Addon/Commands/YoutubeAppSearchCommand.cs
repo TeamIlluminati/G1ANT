@@ -10,10 +10,10 @@ namespace G1ANT.Addon.YoutubeApp
     {
         public class Arguments : CommandArguments
         {
-            [Argument(Required = true, Tooltip = "Provide name of the selector")]
+            [Argument(Required = false, Tooltip = "Provide name of the selector")]
             public TextStructure Search { get; set; } = new TextStructure("Search");
 
-            [Argument(Required = true, Tooltip = "Provide element ID")]
+            [Argument(Required = false,Tooltip = "Provide element ID")]
             public TextStructure By { get; set; } = new TextStructure("AccessibilityId");
 
             [Argument(Required = true, Tooltip = "Provide the search element")]
