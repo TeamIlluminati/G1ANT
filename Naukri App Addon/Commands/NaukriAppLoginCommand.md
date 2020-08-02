@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-naukriapp.login pnr ⟦text⟧
+naukriapp.login email ⟦text⟧ pword ⟦text⟧ tab ⟦text⟧
 ```
 
 ## Description
