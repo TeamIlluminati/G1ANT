@@ -11,7 +11,7 @@ using OpenQA.Selenium.Remote;
 
 namespace G1ANT.Addon.NaukriApp
 {
-    [Command(Name = "naukriapp.incomplete", Tooltip = "This command display user incomplete jobs applications in Naukri App")]
+    [Command(Name = "naukriapp.recruiter", Tooltip = "This command search recruiter of particular skill at a specified location in Naukri App")]
     public class NaukriAppRecruiterCommand : Language.Command
     {
         public class Arguments : CommandArguments
@@ -24,7 +24,7 @@ namespace G1ANT.Addon.NaukriApp
 
             [Argument(Name = "skill", Required = true, Tooltip = "Enter skill of recruiter you want to searcxh")]
             public TextStructure skill { get; set; } = new TextStructure(string.Empty);
-            [Argument(Name = "Location", Required = true, Tooltip = "Enter location of recruiter")]
+            [Argument(Name = "location", Required = true, Tooltip = "Enter location of recruiter")]
             public TextStructure location { get; set; } = new TextStructure(string.Empty);
 
         }

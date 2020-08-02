@@ -22,7 +22,7 @@ namespace G1ANT.Addon.NaukriApp
             [Argument(Required = false, Tooltip = "Provide element ID")]
             public TextStructure By { get; set; } = new TextStructure(string.Empty);
 
-            [Argument(Name = "job", Required = true, Tooltip = "Enter name of job you want to searcxh")]
+            [Argument(Name = "job", Required = true, Tooltip = "Enter name of job you want to search")]
             public TextStructure job { get; set; } = new TextStructure(string.Empty);
             [Argument(Name = "Location", Required = true, Tooltip = "Enter location where you want")]
             public TextStructure location { get; set; } = new TextStructure(string.Empty);
