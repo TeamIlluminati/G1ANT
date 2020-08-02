@@ -25,7 +25,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a irctc webpage in chorme.
+This simple script opens a irctc webpage in chrome.
 
 ```G1ANT
 irctc.open Type ‴chrome‴ 
