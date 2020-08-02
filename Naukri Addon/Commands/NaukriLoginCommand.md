@@ -9,7 +9,7 @@ naukri.login username ⟦text⟧ password ⟦text⟧
 ## Description
 
 
-This command logs the user into the Naukri website.
+This command logins the user into the Naukri website.
 
 | Argument        | Type | Required | Default Value | Description |
 | --------        | ---- | -------- | ------------- | ----------- |
