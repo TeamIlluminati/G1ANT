@@ -17,10 +17,10 @@ namespace G1ANT.Addon.LinkedinApp
 
         public class Arguments : CommandArguments
         {
-            [Argument(Required = true, Tooltip = "AppActivity")]
+            [Argument(DefaultVariable = "AppActivity", Tooltip = "AppActivity")]
             public TextStructure AppActivity { get; set; } = new TextStructure("com.linkedin.android.authenticator.LaunchActivity");
 
-            [Argument(Required = true, Tooltip = "App Package")]
+            [Argument(DefaultVariable = "AppPackage", Tooltip = "App Package")]
             public TextStructure AppPackage { get; set; } = new TextStructure("com.linkedin.android");
 
             [Argument(Required = false, Tooltip = "Automation Name")]
