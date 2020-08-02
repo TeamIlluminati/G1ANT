@@ -25,7 +25,7 @@ namespace G1ANT.Addon.IRCTCApp
             public TextStructure By { get; set; } = new TextStructure(string.Empty);
 
             [Argument(Name="pnr",Required = true, Tooltip = "Provide PNR to enquire")]
-            public TextStructure pnr { get; set; } = new TextStructure(string.Empty);
+            public TextStructure PNR { get; set; } = new TextStructure(string.Empty);
         }
         public void Execute(Arguments arguments)
         {
@@ -34,7 +34,7 @@ namespace G1ANT.Addon.IRCTCApp
             ElementHelper.GetElement(arguments.By.Value, arguments.Search.Value).Click();
             arguments.Search.Value = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.EditText";
             arguments.By.Value = "xpath";
-            ElementHelper.GetElement(arguments.By.Value, arguments.Search.Value).SendKeys(arguments.pnr.Value);
+            ElementHelper.GetElement(arguments.By.Value, arguments.Search.Value).SendKeys(arguments.PNR.Value);
             arguments.Search.Value = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.RelativeLayout/android.widget.TextView";
             arguments.By.Value = "xpath";
             ElementHelper.GetElement(arguments.By.Value, arguments.Search.Value).Click();

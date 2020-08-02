@@ -8,7 +8,7 @@ using OpenQA.Selenium.Remote;
 
 namespace G1ANT.Addon.IRCTCApp
 {
-    [Command(Name = "irctcapp.mybookings", Tooltip = "This command books a meal by taking pnr from user")]
+    [Command(Name = "irctcapp.meal", Tooltip = "This command books a meal by taking pnr from user")]
 
     public class IRCTCAppMealCommand : Language.Command
     {

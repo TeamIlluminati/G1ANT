@@ -18,10 +18,10 @@ namespace G1ANT.Addon.IRCTCApp
 
         public class Arguments : CommandArguments
         {
-            [Argument(Required = true, Tooltip = "AppActivity")]
+            [Argument(DefaultVariable = "AppActivity", Tooltip = "AppActivity")]
             public TextStructure AppActivity { get; set; } = new TextStructure("cris.org.in.ima.activities.HomeActivity");
 
-            [Argument(Required = true, Tooltip = "App Package")]
+            [Argument(DefaultVariable = "AppPackage", Tooltip = "App Package")]
             public TextStructure AppPackage { get; set; } = new TextStructure("cris.org.in.prs.ima");
 
             [Argument(Required = false, Tooltip = "Automation Name")]
