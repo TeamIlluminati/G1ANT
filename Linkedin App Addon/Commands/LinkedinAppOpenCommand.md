@@ -9,6 +9,7 @@ linkedinapp.open
 ## Description
 
 This command open linkedin app in Android.
+Make sure the user is already logged in the Application.
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
