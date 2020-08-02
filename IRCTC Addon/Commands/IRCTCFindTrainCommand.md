@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-irctc.findtrain from ⟦text⟧ to ⟦text⟧ date ⟦text⟧
+irctc.findtrain from ⟦text⟧ to ⟦text⟧ on ⟦date⟧
 ```
 
 ## Description
@@ -15,7 +15,7 @@ This command will find train in irctc website.
 | --------        | ---- | -------- | ------------- | ----------- |
 | `from`       | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) |yes  |                  |Enter the station name from where you want to depart |
 | `to`      | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) |yes   |                 |Enter the station name where you want to arive |
-| `date`      | [date]https://manual.g1ant.com/G1ANT.Addons/G1ANT.Language/Structures/DateStructure.md |yes   |                 |Enter date in formate (dd-mm-yyyy) |
+| `on`      | [date]https://manual.g1ant.com/G1ANT.Addons/G1ANT.Language/Structures/DateStructure.md |yes   |                 |Enter date in formate (dd-mm-yyyy) |
 |  `result`  | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)  |no   | ♥result   |Name of a variable where the command's result will be stored |
 | `if`  | [bool](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/BooleanStructure.md) | no       | true                                                        | Executes the command only if a specified condition is true   |
 | `timeout` | [timespan](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TimeSpanStructure.md) | no       | [♥timeoutcommand](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Addon.Core/Variables/TimeoutCommandVariable.md) | Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
@@ -30,7 +30,8 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 This simple script open IRCTC website and then find train according to user.
 ```G1ANT
+♥myDate = ⟦date:dd-MM-yyyy⟧21-02-2019
 irctc.open Type ‴chrome‴ 
 delay 10
-irctc.findtrain from ‴Delhi‴ to ‴Ranchi‴ date ‴15-08-2020‴
+irctc.findtrain from ‴Delhi‴ to ‴Ranchi‴ on ♥myDate
 ```
