@@ -17,19 +17,19 @@ namespace G1ANT.Addon.YoutubeApp
 
         public class Arguments : CommandArguments
         {
-            [Argument(Required = false, Tooltip = "AppActivity")]
+            [Argument(DefaultVariable = "AppActivity", Tooltip = "AppActivity")]
             public TextStructure AppActivity { get; set; } = new TextStructure("com.google.android.apps.youtube.app.WatchWhileActivity");
 
-            [Argument(Required = false, Tooltip = "App Package")]
+            [Argument(DefaultVariable = "AppPackage", Tooltip = "App Package")]
             public TextStructure AppPackage { get; set; } = new TextStructure("com.google.android.youtube");
 
             [Argument(Required = false, Tooltip = "Automation Name")]
             public TextStructure AutomationName { get; set; } = new TextStructure("UiAutomator2");
 
-            [Argument(Required = false, Tooltip = "Device Name")]
+             [Argument(Required = true, Tooltip = "Device Name")]
             public TextStructure DeviceName { get; set; } = new TextStructure("Android");
 
-            [Argument(Required = false, Tooltip = "Platform Name")]
+            [Argument(Required = true, Tooltip = "Platform Name")]
             public TextStructure PlatformName { get; set; } = new TextStructure("Android");
 
             [Argument(Required = false, Tooltip = "Platform version")]
