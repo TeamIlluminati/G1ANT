@@ -24,7 +24,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a Naukri website in browser and then searh job in website accroding to user needs.
+This simple script opens a Naukri website in browser and then searh job in website according to user needs.
 
 ```G1ANT
 naukri.open type chrome
