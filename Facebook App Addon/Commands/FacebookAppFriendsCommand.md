@@ -31,5 +31,5 @@ This simple script opens a facebook application and then logs into the account w
 ```G1ANT
 fbapp.open email <enter_your_login ID> pword <enter_the_password_here>
 delay 8
-fpapp.friends
+fbapp.friends
 ```
