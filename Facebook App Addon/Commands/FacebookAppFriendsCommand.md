@@ -1,9 +1,9 @@
-# fbapp.events
+# fbapp.friends
 
 ## Syntax
 
 ```G1ANT
-fbapp.events
+fbapp.friends
 ```
 
 ## Description
