@@ -8,7 +8,8 @@ irctcapp.login pin ⟦text⟧
 
 ## Description
 
-This command logins the user into the app. \nMake sure you have already signed into the app and created a pin.
+This command logins the user into the app. 
+Make sure you have already signed into the app and created a pin.
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
