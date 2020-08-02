@@ -11,7 +11,7 @@ using OpenQA.Selenium.Appium.MultiTouch;
 
 namespace G1ANT.Addon.FacebookApp
 {
-    [Command(Name = "fbapp.gaming", Tooltip = "This command displays user's friends which are near user's location in Facebook app")]
+    [Command(Name = "fbapp.nearby", Tooltip = "This command displays user's friends which are near user's location in Facebook app")]
 
     public class FacebookAppNearbyFriendsCommand : Language.Command
     {

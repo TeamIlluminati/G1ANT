@@ -40,7 +40,7 @@ namespace G1ANT.Addon.FacebookApp
             public TextStructure email { get; set; }
 
             [Argument(Name = "password", Required = true, Tooltip = "Enter your password")]
-            public TextStructure password { get; set; }
+            public TextStructure pword { get; set; }
 
             [Argument(Required = false, Tooltip = "Provide name of the capaility")]
             public TextStructure Search { get; set; } = new TextStructure(string.Empty);
@@ -66,7 +66,7 @@ namespace G1ANT.Addon.FacebookApp
             arguments.Search.Value = "//android.widget.EditText[@content-desc='Password']";
             arguments.By.Value = "xpath";
 
-            ElementHelper.GetElement(arguments.By.Value, arguments.Search.Value).SendKeys(arguments.password.Value);
+            ElementHelper.GetElement(arguments.By.Value, arguments.Search.Value).SendKeys(arguments.pword.Value);
 
             arguments.Search.Value = "//android.view.ViewGroup[@content-desc='Log In']";
             arguments.By.Value = "xpath";

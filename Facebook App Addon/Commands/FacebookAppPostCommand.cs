@@ -9,7 +9,7 @@ using OpenQA.Selenium.Remote;
 
 namespace G1ANT.Addon.FacebookApp
 {
-    [Command(Name = "fbandroid.post", Tooltip = "This command takes content of post from user using argument and post it in fb app")]
+    [Command(Name = "fbapp.post", Tooltip = "This command takes content of post from user using argument and post it in fb app")]
     public class FBandroidWritePostCommand : Language.Command
     {
         public class Arguments : CommandArguments
@@ -20,8 +20,8 @@ namespace G1ANT.Addon.FacebookApp
             [Argument(Required = false, Tooltip = "Provide element ID")]
             public TextStructure By { get; set; } = new TextStructure(string.Empty);
 
-            [Argument(Name = "Post", Required = true, Tooltip = "Enter the message or story to be posted.")]
-            public TextStructure post { get; set; } = new TextStructure(string.Empty);
+            [Argument(Name = "Message", Required = true, Tooltip = "Enter the message or story to be posted.")]
+            public TextStructure message { get; set; } = new TextStructure(string.Empty);
         }
 
         public FBandroidWritePostCommand(AbstractScripter scripter) : base(scripter)
@@ -40,7 +40,7 @@ namespace G1ANT.Addon.FacebookApp
             ElementHelper.GetElement(arguments.By.Value, arguments.Search.Value).Click();
             arguments.Search.Value = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.EditText";
             arguments.By.Value = "xpath";
-            ElementHelper.GetElement(arguments.By.Value, arguments.Search.Value).SendKeys(arguments.post.Value);
+            ElementHelper.GetElement(arguments.By.Value, arguments.Search.Value).SendKeys(arguments.message.Value);
             arguments.Search.Value = "//android.widget.Button[@content-desc='POST']";
             arguments.By.Value = "xpath";
             ElementHelper.GetElement(arguments.By.Value, arguments.Search.Value).Click();

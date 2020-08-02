@@ -11,7 +11,7 @@ using OpenQA.Selenium.Appium.MultiTouch;
 
 namespace G1ANT.Addon.FacebookApp
 {
-    [Command(Name = "fbapp.notification", Tooltip = "This command displays notifications in Facebook app")]
+    [Command(Name = "fbapp.notifications", Tooltip = "This command displays notifications in Facebook app")]
 
     public class FacebookAppNotificationCommand : Language.Command
     {
