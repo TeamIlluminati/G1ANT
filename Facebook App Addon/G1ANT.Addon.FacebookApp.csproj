@@ -104,7 +104,7 @@
     <Compile Include="FacebookAppGroupsCommand.cs" />
     <Compile Include="FacebookAppJobsCommand.cs" />
     <Compile Include="FacebookAppMarketplaceCommand.cs" />
-    <Compile Include="FacebookAppMemories.cs" />
+    <Compile Include="FacebookAppMemoriesCommand.cs" />
     <Compile Include="FacebookAppNearbyFriendsCommand.cs" />
     <Compile Include="FacebookAppNotificationCommand.cs" />
     <Compile Include="FacebookAppOpenCommand.cs" />
