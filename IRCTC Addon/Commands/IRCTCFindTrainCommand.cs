@@ -24,7 +24,7 @@ namespace G1ANT.Addon.IRCTC
             [Argument(Required = true, Tooltip = "Enter the station name where you want to arive")]
             public TextStructure to { get; set; }
             [Argument(Required= true, Tooltip="Enter date in formate (dd-mm-yyyy)")]
-            public TextStructure date { get; set; }
+            public TextStructure on { get; set; }
 
             [Argument(DefaultVariable = "timeoutselenium", Tooltip = "Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed")]
             public override TimeSpanStructure Timeout { get; set; } = new TimeSpanStructure(SeleniumSettings.SeleniumTimeout);
@@ -48,7 +48,7 @@ namespace G1ANT.Addon.IRCTC
                 arguments.Search.Value = "/html/body/app-root/app-home/div[2]/div/app-main-page/div[1]/div/div[1]/div/div/div[1]/div/app-jp-input/div[3]/form/div[3]/p-calendar/span/input";
                 arguments.By.Value = "xpath";
                 SeleniumManager.CurrentWrapper.Click(arguments, arguments.Timeout.Value);
-                SeleniumManager.CurrentWrapper.TypeText(arguments.date.Value, arguments, arguments.Timeout.Value);
+                SeleniumManager.CurrentWrapper.TypeText(arguments.on.Value, arguments, arguments.Timeout.Value);
                 SeleniumManager.CurrentWrapper.PressKey("enter", arguments, arguments.Timeout.Value);
                 Thread.Sleep(5000);
                
