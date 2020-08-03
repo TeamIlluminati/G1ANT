@@ -18,7 +18,7 @@ namespace G1ANT.Addon.Flipkart
         public class Arguments : CommandArguments
         {
             [Argument(Required = true, Tooltip = "Name of a web browser")]
-            public TextStructure Type { get; set; } = new TextStructure("chrome");
+            public TextStructure Type { get; set; } = new TextStructure(string.Empty);
 
             
             [Argument(DefaultVariable = "timeoutselenium", Tooltip = "Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed")]
