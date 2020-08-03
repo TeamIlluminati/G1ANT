@@ -3,7 +3,8 @@
 ## Syntax
 
 ```G1ANT
-flipkartapp.login```
+flipkartapp.login email ⟦text⟧ pword ⟦text⟧
+```
 
 ## Description
 
@@ -30,5 +31,5 @@ This simple script opens a facebook application and then logs into the account w
 ```G1ANT
 flipkartapp.open
 delay 8
-flipkartapp.login
+flipkartapp.login email <Enter your email here> pword <Enter your password>
 ```
