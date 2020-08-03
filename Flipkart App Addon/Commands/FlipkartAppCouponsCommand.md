@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-flipkartapp.coupons email ⟦text⟧ pword ⟦text⟧
+flipkartapp.coupons
 ```
 
 ## Description
