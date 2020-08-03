@@ -19,8 +19,7 @@ namespace G1ANT.Addon.Youtube
         public class Arguments : SeleniumCommandArguments
         {
             [Argument(Required = true, Tooltip = "Name of a web browser")]
-            public TextStructure type { get; set; } = new TextStructure(string.Empty);
-
+            public TextStructure type { get; set; } = new TextStructure("chrome");
             [Argument(DefaultVariable = "timeoutselenium", Tooltip = "Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed")]
             public override TimeSpanStructure Timeout { get; set; } = new TimeSpanStructure(SeleniumSettings.SeleniumTimeout);
             [Argument(Tooltip = "By default, waits until the webpage fully loads")]
