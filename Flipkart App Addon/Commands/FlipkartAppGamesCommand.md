@@ -8,7 +8,7 @@ flipkartapp.games
 
 ## Description
 
-This command displays Flights,Hotels and Buses section of Flipkart app
+This command displays Games section of Flipkart app
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
