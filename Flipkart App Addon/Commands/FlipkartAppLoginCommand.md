@@ -26,7 +26,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a facebook application and then logs into the account with provided credentials in app.
+This simple script opens a flipkart application and then logs into the account with provided credentials in app.
 
 ```G1ANT
 flipkartapp.open
