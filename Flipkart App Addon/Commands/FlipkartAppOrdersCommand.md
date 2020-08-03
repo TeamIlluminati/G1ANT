@@ -8,7 +8,7 @@ flipkartapp.myorders
 
 ## Description
 
-This command helps you to show your orders on Flipkart app
+This command helps you to show user orders on Flipkart app
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
 | `email` | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)     |yes       |                                                             |Enter the user email           |
