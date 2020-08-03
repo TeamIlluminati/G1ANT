@@ -20,7 +20,7 @@ namespace G1ANT.Addon.Zoom
         {
             // Enter all arguments you need
             [Argument(Required = true, Tooltip = "Name of a web browser")]
-            public TextStructure Type { get; set; } = new TextStructure(string.Empty);
+            public TextStructure Type { get; set; } = new TextStructure("chrome");
 
             
             [Argument(DefaultVariable = "timeoutselenium", Tooltip = "Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed")]
