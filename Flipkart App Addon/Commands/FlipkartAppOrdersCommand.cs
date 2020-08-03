@@ -6,7 +6,7 @@ using OpenQA.Selenium.Remote;
 
 namespace G1ANT.Addon.FlipkartApp
 {
-    [Command(Name = "flipkartapp.youroders", Tooltip = "This command helps you to show your oders on Flipkart app")]
+    [Command(Name = "flipkartapp.myorders", Tooltip = "This command helps you to show your orders on Flipkart app")]
     public class FlipkartAppOrdersCommand : Language.Command
     {
         public class Arguments : CommandArguments
