@@ -25,7 +25,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a irctc webpage in chrome.
+This simple script opens a flipkart webpage in firefox.
 
 ```G1ANT
 fliplart.open Type firefox
