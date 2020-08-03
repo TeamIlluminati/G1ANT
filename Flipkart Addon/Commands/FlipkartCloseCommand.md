@@ -25,7 +25,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a flipkart webpage in chrome  and after a delay of5 seconds closes it.
+This simple script opens a flipkart webpage in chrome  and after a delay of 5 seconds closes it.
 
 ```G1ANT
 flipkart.open Type chrome
