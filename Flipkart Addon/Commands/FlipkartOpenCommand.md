@@ -28,5 +28,5 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 This simple script opens a flipkart webpage in firefox.
 
 ```G1ANT
-fliplart.open Type firefox
+flipkart.open Type firefox
 ```
