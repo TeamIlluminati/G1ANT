@@ -19,7 +19,7 @@ namespace G1ANT.Addon.FlipkartApp
         public class Arguments : CommandArguments
         {
             [Argument(DefaultVariable = "AppActivity", Tooltip = "AppActivity")]
-            public TextStructure AppActivity { get; set; } = new TextStructure("com.flipkart.android.SplashActivity");
+            public TextStructure AppActivity { get; set; } = new TextStructure("com.flipkart.android.activity.HomeFragmentHolderActivity");
 
             [Argument(DefaultVariable = "AppPackage", Tooltip = "App Package")]
             public TextStructure AppPackage { get; set; } = new TextStructure("com.flipkart.android");
