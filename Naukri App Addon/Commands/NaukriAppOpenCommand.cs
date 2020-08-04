@@ -18,7 +18,7 @@ namespace G1ANT.Addon.NaukriApp
         public class Arguments : CommandArguments
         {
             [Argument(DefaultVariable = "AppActivity", Tooltip = "AppActivity")]
-            public TextStructure AppActivity { get; set; } = new TextStructure("com.naukri.authentication.view.LoginForm");
+            public TextStructure AppActivity { get; set; } = new TextStructure("com.naukri.dashboard.view.NaukriSplashScreen");
 
             [Argument(DefaultVariable = "AppPackage", Tooltip = "App Package")]
             public TextStructure AppPackage { get; set; } = new TextStructure("naukriApp.appModules.login");
