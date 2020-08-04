@@ -19,7 +19,7 @@ namespace G1ANT.Addon.IRCTCApp
         public class Arguments : CommandArguments
         {
             [Argument(DefaultVariable = "AppActivity", Tooltip = "AppActivity")]
-            public TextStructure AppActivity { get; set; } = new TextStructure("cris.org.in.ima.activities.HomeActivity");
+            public TextStructure AppActivity { get; set; } = new TextStructure("cris.org.in.ima.activities.IRCTCConnectActivity");
 
             [Argument(DefaultVariable = "AppPackage", Tooltip = "App Package")]
             public TextStructure AppPackage { get; set; } = new TextStructure("cris.org.in.prs.ima");
