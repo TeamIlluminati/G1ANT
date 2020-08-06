@@ -23,10 +23,12 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens IRCTC application in user's android device and then open History Section in IRCTC app.
+This simple script opens IRCTC application in user's android device and then login in app with provided credentials and then open History Section in IRCTC app.
 
 ```G1ANT
 irctcapp.open
 delay 8
+irctcapp.login pin <Enter your pin here> 
+delay 5
 irctcapp.history 
 ```
