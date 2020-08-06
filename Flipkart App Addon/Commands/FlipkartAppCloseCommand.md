@@ -24,7 +24,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a facebook application and then after a delay of 8 seconds and then closes it.
+This simple script opens a Flipkart application and then after a delay of 8 seconds and then closes it.
 
 ```G1ANT
 flipkartapp.open
