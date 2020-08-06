@@ -24,10 +24,12 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens Naukri.com application in user's android device and then open Incomplete Jobs section in app.
+This simple script opens Naukri.com application in user's android device and then login in the app and then open Incomplete Jobs section in app.
 
 ```G1ANT
 naukriapp.open
 delay 8
+naukriapp.login email <Enter your email> pword <Enter your password> tab Never
+delay 5
 naukriapp.incomplete
 ```
