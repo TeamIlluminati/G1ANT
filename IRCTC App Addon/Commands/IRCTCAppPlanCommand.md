@@ -26,7 +26,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a IRCTC application in user's android device and then open History Section in IRCTC app.
+This simple script opens a IRCTC application in user's android device and then display available trains for provided route in IRCTC app.
 
 ```G1ANT
 irctcapp.open
