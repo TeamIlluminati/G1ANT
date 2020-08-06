@@ -23,10 +23,12 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens naukri.com application in user's android device and then open Applied Job Section in the app.
+This simple script opens naukri.com application in user's android device and then login in the app and show user Applied Jobs in app.
 
 ```G1ANT
 naukriapp.open
 delay 8
+naukriapp.login email <Enter your email> pword <Enter your password> tab Never
+delay 5
 naukriapp.applied
 ```
