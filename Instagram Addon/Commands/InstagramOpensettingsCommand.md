@@ -1,9 +1,9 @@
-# instagram.opensett
+# instagram.opensettings
 
 ## Syntax
 
 ```G1ANT
-instagram.opensett 
+instagram.opensettings
 ```
 
 ## Description
@@ -32,5 +32,5 @@ This simple script opens instagram and login with the credential which user will
 ```G1ANT
 instagram.login email <Enter your email-id here> pword <Enter your password here>
 delay 5
-instagram.opensett
+instagram.opensettings
 ```
