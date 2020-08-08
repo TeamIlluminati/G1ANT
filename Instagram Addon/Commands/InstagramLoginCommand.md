@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-instagram.login phoneno ⟦text⟧ pword ⟦text⟧
+instagram.login email ⟦text⟧ pword ⟦text⟧
 ```
 
 ## Description
