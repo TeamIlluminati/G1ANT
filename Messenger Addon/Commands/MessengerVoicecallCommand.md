@@ -31,4 +31,4 @@ This simple script opens messenger and login with the credential which user will
 ```G1ANT
 messenger.login email <Enter your email-id here> pword <Enter your password here>
 delay 5
-messenger.voicecall recipient ‴Eva‴ content ‴Hello!‴
+messenger.voicecall recipient ‴Eva‴
