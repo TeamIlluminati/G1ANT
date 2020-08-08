@@ -25,10 +25,12 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a Zoom website and then open Schedule Section  in Zoom website.
+This simple script opens a Zoom website and then logins the user  and then open Schedule Section  in Zoom website.
 
 ```G1ANT
 zoom.open
+delay 5
+zoom.signin email <Enter your email-id here> password <Enter your pword here>
 delay 5
 zoom.schdule topic <Enter your topic>
 ```
