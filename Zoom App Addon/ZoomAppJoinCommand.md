@@ -28,7 +28,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a Naukri application in user's android device and then joins a meeting in Zoom app.
+This simple script opens a Zoom application in user's android device and then joins a meeting in Zoom app.
 
 ```G1ANT
 zoomapp.open
