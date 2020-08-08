@@ -25,9 +25,9 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens zomato app and login with the credential which user will give and then open settings option on zomato app.
+This simple script opens zomato app and then open settings option on zomato app.
 
 ```G1ANT
-zomatoapp.login email <Enter your email-id here> pword <Enter your password here>
+zomatoapp.open
 delay 5
 zomatoapp.settings
