@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-zomato.login email ⟦text⟧ pword ⟦text⟧
+zomato.login email ⟦text⟧
 ```
 
 ## Description
