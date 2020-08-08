@@ -18,7 +18,7 @@ namespace G1ANT.Addon.Swiggy
         public class Arguments : SeleniumCommandArguments
         {
             [Argument(Required = true, Tooltip = "Name of a web browser")]
-            public TextStructure type { get; set; } = new TextStructure("chrome");
+            public TextStructure Type { get; set; } = new TextStructure("chrome");
 
             [Argument(DefaultVariable = "timeoutselenium", Tooltip = "Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed")]
             public override TimeSpanStructure Timeout { get; set; } = new TimeSpanStructure(SeleniumSettings.SeleniumTimeout);
@@ -30,7 +30,7 @@ namespace G1ANT.Addon.Swiggy
             try
             {
                 SeleniumWrapper wrapper = SeleniumManager.CreateWrapper(
-                        arguments.type.Value,
+                        arguments.Type.Value,
                         "swiggy.com",
                         arguments.Timeout.Value,
                         false,

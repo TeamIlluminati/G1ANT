@@ -19,7 +19,7 @@ namespace G1ANT.Addon.Swiggy
         public class Arguments : SeleniumCommandArguments
         {
             [Argument(Required = true, Tooltip = "Enter the location here")]
-            public TextStructure location { get; set; }
+            public TextStructure area { get; set; }
             [Argument(DefaultVariable = "timeoutselenium", Tooltip = "Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed")]
             public override TimeSpanStructure Timeout { get; set; } = new TimeSpanStructure(SeleniumSettings.SeleniumTimeout);
         }
@@ -28,25 +28,10 @@ namespace G1ANT.Addon.Swiggy
         {
             try
             {
-                SeleniumWrapper wrapper = SeleniumManager.CreateWrapper(
-                        "chrome",
-                        "swiggy.com",
-                        arguments.Timeout.Value,
-                        false,
-                        Scripter.Log,
-                        Scripter.Settings.UserDocsAddonFolder.FullName);
-                int wrapperId = wrapper.Id;
-                OnScriptEnd = () =>
-                {
-                    SeleniumManager.DisposeAllOpenedDrivers();
-                    SeleniumManager.RemoveWrapper(wrapperId);
-                    SeleniumManager.CleanUp();
-                };
-                Thread.Sleep(5000);
                 arguments.Search.Value = "/html/body/div/div[1]/div[1]/div/div[1]/div[1]/div/div[2]/div/div[1]/input";
                 arguments.By.Value = "xpath";
                 SeleniumManager.CurrentWrapper.Click(arguments, arguments.Timeout.Value);
-                SeleniumManager.CurrentWrapper.TypeText(arguments.location.Value, arguments, arguments.Timeout.Value);
+                SeleniumManager.CurrentWrapper.TypeText(arguments.area.Value, arguments, arguments.Timeout.Value);
                 Thread.Sleep(2000);
                 SeleniumManager.CurrentWrapper.PressKey("down", arguments, arguments.Timeout.Value);
                 SeleniumManager.CurrentWrapper.PressKey("enter", arguments, arguments.Timeout.Value);

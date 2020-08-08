@@ -29,20 +29,6 @@ namespace G1ANT.Addon.Swiggy
         {
             try
             {
-                SeleniumWrapper wrapper = SeleniumManager.CreateWrapper(
-                        "chrome",
-                        "swiggy.com",
-                        arguments.Timeout.Value,
-                        false,
-                        Scripter.Log,
-                        Scripter.Settings.UserDocsAddonFolder.FullName);
-                int wrapperId = wrapper.Id;
-                OnScriptEnd = () =>
-                {
-                    SeleniumManager.DisposeAllOpenedDrivers();
-                    SeleniumManager.RemoveWrapper(wrapperId);
-                    SeleniumManager.CleanUp();
-                };
                 arguments.Search.Value = "/html/body/div[1]/div[1]/div[1]/div/div[1]/div[1]/div/div[1]/div/a[1]";
                 arguments.By.Value = "xpath";
                 SeleniumManager.CurrentWrapper.Click(arguments, arguments.Timeout.Value);
