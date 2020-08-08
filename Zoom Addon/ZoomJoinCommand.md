@@ -25,7 +25,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a Zoom website and then joins a meeting in Zoom app.
+This simple script opens a Zoom website and then joins a meeting in Zoom webiste.
 
 ```G1ANT
 zoom.open
