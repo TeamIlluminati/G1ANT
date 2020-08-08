@@ -1,4 +1,4 @@
-# linkedin.follow
+# instagram.follow
 
 ## Syntax
 
@@ -9,7 +9,7 @@ instagram.follow recipient ⟦text⟧
 ## Description
 
 
-This command allows user to follow a specific company or person on Linkedin.
+This command allows user to follow a specific person on instagram.
 
 | Argument        | Type | Required | Default Value | Description |
 | --------        | ---- | -------- | ------------- | ----------- |
