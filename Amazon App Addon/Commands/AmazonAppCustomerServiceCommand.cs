@@ -12,7 +12,7 @@ using OpenQA.Selenium.Remote;
 
 namespace G1ANT.Addon.AmazonApp
 {
-    [Command(Name = "amazonapp.customerservice", Tooltip = "This command opens customer service option on Amazon App")]
+    [Command(Name = "amazonapp.customerservice", Tooltip = "This command opens today's deal option on Amazon App")]
     public class AmazonAppCustomerServiceCommand : Language.Command
     {
         public class Arguments : CommandArguments
