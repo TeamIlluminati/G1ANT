@@ -13,7 +13,7 @@ using OpenQA.Selenium.Remote;
 namespace G1ANT.Addon.ZomatoApp
 {
     [Command(Name = "zomatoapp.login", Tooltip = "This command will login on Zomato App")]
-    public class AmazonAppNotificationsCommand : Language.Command
+    public class ZomatoAppLoginCommand : Language.Command
     {
         public class Arguments : CommandArguments
         {
@@ -24,7 +24,7 @@ namespace G1ANT.Addon.ZomatoApp
             public TextStructure By { get; set; }
         }
 
-        public AmazonAppNotificationsCommand(AbstractScripter scripter) : base(scripter)
+        public ZomatoAppLoginCommand(AbstractScripter scripter) : base(scripter)
         {
 
         }
