@@ -9,7 +9,7 @@ amazon.login email ⟦text⟧ pword ⟦text⟧
 ## Description
 
 
-This command will sign-in user into flipkart website.
+This command will sign-in user into amazon website.
 
 | Argument        | Type | Required | Default Value | Description |
 | --------        | ---- | -------- | ------------- | ----------- |
