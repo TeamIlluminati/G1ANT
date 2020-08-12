@@ -21,7 +21,7 @@ This command refreshes the current tab content in Chingari for the web browser.
 
 For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormessage` and `errorresult` arguments, see [Common Arguments](https://manual.g1ant.com/link/G1ANT.Manual/appendices/common-arguments.md) page.
 
-> **Note:** the `selenium.` commands require opening a browser with the `selenium.open` command first, and they refer to the browser’s first tab by default. If you have more tabs opened and want to use the `selenium.` commands on a tab other than the first one, use the `selenium.activatetab` command to change the active tab.
+> **Note:** the `chingari.refresh` commands require opening a browser with the `chingari.open` command first, and they refer to the browser’s first tab by default.
 
 ## Example
 
