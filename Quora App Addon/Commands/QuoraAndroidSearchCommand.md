@@ -28,7 +28,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 # Sequence of Operation
 With the android device being connected and configured, based on the app activity and app package defined, Quora opens on the user's device and would be ready for using in phone.
-1. Ensure that you are logged in to Quora.
+1. The user will be logged in to Quora.
 2. The user will be viewing his profile and notifications in finite time.
 3. The topic requested will then be searched in the search bar. 
 
