@@ -8,7 +8,7 @@ using G1ANT.Language;
 
 namespace G1ANT.Addon.Quora
 {
-    [Command(Name= "login", Tooltip = "this helps the user enter the credentials")]
+    [Command(Name= "quora.login", Tooltip = "This helps the user enter the credentials and login Quora")]
     class QuoraLoginCommand : Command
     {
         public QuoraLoginCommand(AbstractScripter scripter) : base(scripter)
