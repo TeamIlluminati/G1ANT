@@ -36,7 +36,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script logins the user in amzon website.
+This simple script logins the user in quora website and create his own space
 
 ```G1ANT
 dialog message ‴Testing out Quora‴
