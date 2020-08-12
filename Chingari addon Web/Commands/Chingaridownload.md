@@ -24,9 +24,7 @@ This command ensures that Chingari is downloaded in an android phone.
 For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormessage` and `errorresult` arguments, see [Common Arguments](https://manual.g1ant.com/link/G1ANT.Manual/appendices/common-arguments.md) page.
 
 # Sequence of Operation
-
-The website launches in the defined web browser defined by the user
-1.The download is then prompted which occurs in an android phone.
+The website launches in the defined web browser defined by the user. After which the application will install in the phone
 
 ## Example
 
