@@ -9,7 +9,7 @@ using G1ANT.Language;
 
 namespace G1ANT.Addon.Quora
 {
-    [Command(Name = "searchquora", Tooltip = "This will be used to search for a particular question")]
+    [Command(Name = "quora.search", Tooltip = "This will be used to search for a particular question on Quora")]
     class QuorasearchCommand : Command
     {
         public QuorasearchCommand(AbstractScripter scripter) : base(scripter)
