@@ -9,7 +9,7 @@ instagram.senddm recipient ⟦text⟧ content ⟦text⟧
 ## Description
 
 
-This command allows user to post a specific image on Instagram.
+This command allows user to send a message to recipient on Instagram.
 
 | Argument        | Type | Required | Default Value | Description |
 | --------        | ---- | -------- | ------------- | ----------- |
