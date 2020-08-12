@@ -21,14 +21,15 @@ This command allows the user to explore their spaces on Quora
 | `errormessage` | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md) | no       |                                                             | A message that will be shown in case the command throws an exception or when a given `timeout` expires, and no `errorjump` argument is specified |
 | `errorresult`  | [variable](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/VariableStructure.md) | no       |                                                             | Name of a variable that will store the returned exception. The variable will be of [error](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/ErrorStructure.md) structure  |
 
+
+For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormessage` and `errorresult` arguments, see [Common Arguments](https://manual.g1ant.com/link/G1ANT.Manual/appendices/common-arguments.md) page.
+
 # Sequence of Operation
 
 The user is supposed to have an existing account on Quora
 1. Quora is opened in system
 2. The user with the defined userid and password is prompted to login to Quora.
-3. With the space option, the current spaces are allowed to be accessed and given idea regarding the user perspectives.
-
-For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormessage` and `errorresult` arguments, see [Common Arguments](https://manual.g1ant.com/link/G1ANT.Manual/appendices/common-arguments.md) page.
+3. With the space option, the current spaces are allowed to be accessed and given idea regarding the user perspectives
 
 ## Example
 
