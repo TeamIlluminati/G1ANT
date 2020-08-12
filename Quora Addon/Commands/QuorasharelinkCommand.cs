@@ -9,7 +9,7 @@ using G1ANT.Language;
 
 namespace G1ANT.Addon.Quora
 {
-    [Command(Name ="quora.share", Tooltip = "This can allow a person to share different links on the platform")]
+    [Command(Name ="quora.sharelink", Tooltip = "This can allow a person to share different links on Quora")]
     class QuorasharelinkCommand : Command
     {
         public QuorasharelinkCommand(AbstractScripter scripter) : base(scripter)
