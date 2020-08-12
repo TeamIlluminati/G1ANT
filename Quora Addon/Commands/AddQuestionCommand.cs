@@ -8,7 +8,7 @@ using G1ANT.Language;
 
 namespace G1ANT.Addon.Quora
 {
-    [Command(Name = "addquestion", Tooltip= "This can add questions to be searched")]
+    [Command(Name = "quora.addquestion", Tooltip= "This can add questions to be asked on Quora")]
     class AddQuestionCommand :  Command
     {
         public AddQuestionCommand(AbstractScripter scripter) : base(scripter)
