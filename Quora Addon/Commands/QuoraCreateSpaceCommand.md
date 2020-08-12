@@ -9,7 +9,7 @@ quora.createspace aboutname ⟦text⟧ about ⟦text⟧
 ## Description
 
 
-This command will sign-in user into amazon website.
+This command will help a user to create his own space on Quora
 
 | Argument        | Type | Required | Default Value | Description |
 | --------        | ---- | -------- | ------------- | ----------- |
