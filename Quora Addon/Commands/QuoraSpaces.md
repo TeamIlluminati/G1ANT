@@ -39,10 +39,10 @@ dialog message ‴Testing out Quora‴
 quora.open
 delay 10
 dialog message ‴Quora is open‴
-quora.login email ‴test1@gmail.com‴ pword ‴Password‴ timeout 1000
+quora.login email ‴test1@gmail.com‴ pword ‴Password‴ timeout 5
 delay 10
-quora.createspace aboutname ‴Myself‴ about ‴Create a space‴ timeout 1000
+quora.createspace aboutname ‴Myself‴ about ‴Create a space‴ timeout 5
 dialog message ‴Space created‴
-quora.space timeout 1000
+quora.space timeout 5
 delay 10
 ```
