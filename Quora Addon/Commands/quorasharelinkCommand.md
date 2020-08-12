@@ -40,7 +40,7 @@ dialog message ‴Testing out Quora‴
 quora.open
 delay 10
 dialog message ‴Quora is open‴
-quora.login email ‴test1@gmail.com‴ pword ‴Password‴ timeout 1000
+quora.login email ‴test1@gmail.com‴ pword ‴Password‴ timeout 5
 delay 10
 quora.sharelink sharevalue ‴Here is the link to your question‴ postvalue ‴https://stackoverflow.com/questions/63376934/rabin-fingerprinting-tables‴
 ```
