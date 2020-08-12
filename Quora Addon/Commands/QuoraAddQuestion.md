@@ -41,7 +41,7 @@ dialog message ‴Testing out Quora‴
 quora.open
 delay 10
 dialog message ‴Quora is open‴
-quora.login email ‴test1@gmail.com‴ pword ‴Password‴ timeout 1000
+quora.login email ‴test1@gmail.com‴ pword ‴Password‴ timeout 2
 quora.addquestion postvalue ‴Why is Quora Popular ?‴ 
 dialog message ‴Question posted!‴
 ```
