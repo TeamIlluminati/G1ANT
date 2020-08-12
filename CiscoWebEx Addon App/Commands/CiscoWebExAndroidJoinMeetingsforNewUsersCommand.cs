@@ -11,7 +11,7 @@ using OpenQA.Selenium.Remote;
 
 namespace G1ANT.Addon.CiscoWebExAndroid
 {
-    [Command(Name = "ciscowebexandroid.viewrecordings", Tooltip = "View your recordings in CiscoWebEx")]
+    [Command(Name = "ciscowebexandroid.joinmeetingfornewusers", Tooltip = "Join a WebEx Meeting for a new user")]
     public class CiscoWebExAndroidJoinMeetingsforNewUsersCommand : Language.Command
     {
         public class Arguments : AppiumCommandArguments
