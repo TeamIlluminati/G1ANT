@@ -9,7 +9,7 @@ amazon.search item ⟦text⟧
 ## Description
 
 
-This command will sign-in user into flipkart website.
+This command will search items on Amazon website.
 
 | Argument        | Type | Required | Default Value | Description |
 | --------        | ---- | -------- | ------------- | ----------- |
@@ -31,5 +31,5 @@ This simple script searches item in amazon website.
 ```G1ANT
 amazon.open Type ‴chrome‴ 
 delay 10
-amazon.search phoneno item ‴shirts‴
+amazon.search item ‴shirts‴
 ```
