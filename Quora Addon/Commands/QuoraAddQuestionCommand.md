@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-quora.addquestions
+quora.addquestions postvalue ⟦text⟧ 
 ```
 
 ## Description
