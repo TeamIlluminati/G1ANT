@@ -26,7 +26,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 # Sequence of Operation
 
 1.The website launches in the defined web browser defined by the user.
-2. The download is then prompted which occurs in an android phone
+2.The download is then prompted which occurs in an android phone.
 
 ## Example
 
