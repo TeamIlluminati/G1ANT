@@ -27,7 +27,7 @@ This command allows the user to join meetings in CiscoWebEx after logging in.
 For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormessage` and `errorresult` arguments, see [Common Arguments](https://manual.g1ant.com/link/G1ANT.Manual/appendices/common-arguments.md) page.
 
 # Sequence of Operation
-With the android device being connected and configured, based on the app activity and app package defined, Quora opens on the user's device and would be ready for using in phone.
+With the android device being connected and configured, based on the app activity and app package defined, CiscoWebEx opens on the user's device and would be ready for using in phone.
 1. The user will be logged in to CiscoWebEx in the android portal
 2. The user will be then prompted to join meeting in CiscoWebEx
 
