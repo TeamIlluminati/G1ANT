@@ -13,7 +13,7 @@ This command allows user to schedule meetings on CiscoWebEx web browser.
 
 | Argument        | Type | Required | Default Value | Description |
 | --------        | ---- | -------- | ------------- | ----------- |
-|  `info`    | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)  |yes|    present info          |  General Description of the meeting |
+|  `info`    | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)  |yes|    Default      |  General Description of the meeting |
 |  `date`    | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)  |yes|    present date          |  Date of the meeting |
 |  `hour`    | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)  |yes|    present hour    |  Clock time in hours (24 hour format)|
 |  `minutes` | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)  |yes|      present minute        |  Clock time in minutes |
