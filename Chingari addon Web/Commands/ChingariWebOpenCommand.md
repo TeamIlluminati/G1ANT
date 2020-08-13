@@ -8,7 +8,7 @@ chingari.open
 
 ## Description
 
-This command opens the quora website in the user provided browser.
+This command opens the chingari website in the user provided browser.
 
 | Argument         | Type       | Required   | Default Value                                               | Description                                                 |
 | ---------------- | ---------- | ---------- | ----------------------------------------------------------- | ----------------------------- |
