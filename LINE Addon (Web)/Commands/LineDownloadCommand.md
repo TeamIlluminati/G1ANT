@@ -28,7 +28,7 @@ The website launches in the defined web browser defined by the user. After which
 
 ## Example
 
-This simple script opens Line in chrome browser and then waits for 5 seconds. The robot then downloads the chingari application from playstore to an android phone.
+This simple script opens Line in chrome browser and then waits for 5 seconds. The robot then downloads the line application from playstore to an android phone.
 
 ```G1ANT
 dialog message ‴Opening Line in Web‴
