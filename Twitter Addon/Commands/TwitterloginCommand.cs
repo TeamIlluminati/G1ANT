@@ -8,7 +8,7 @@ using G1ANT.Language;
 
 namespace G1ANT.Addon.Twitter
 {
-    [Command(Name = "twitterlogin", Tooltip = "Connect through twitter login")]
+    [Command(Name = "twitter.login", Tooltip = "Connect through twitter login")]
     class TwitterloginCommand : Command
     {
         public TwitterloginCommand(AbstractScripter scripter) : base(scripter)
