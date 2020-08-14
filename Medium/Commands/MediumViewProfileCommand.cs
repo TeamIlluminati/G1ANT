@@ -10,7 +10,7 @@ namespace G1ANT.Addon.Medium
     [Command(Name = "medium.viewprofile",Tooltip = "View the profile")]
     class MediumViewProfile : Command
     {
-        public MediumViewProfile(AbstractScripter scripter): base(scripter)
+        public MediumViewProfileCommand(AbstractScripter scripter): base(scripter)
         {
 
         }
