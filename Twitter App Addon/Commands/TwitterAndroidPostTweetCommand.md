@@ -33,7 +33,7 @@ With the android device being connected and configured, based on the app activit
 
 ## Example
 
-This simple script allows users to create lists on Twitter Application with G1ANT Studio. 
+This simple script allows users to post tweets on Twitter Application with G1ANT Studio. 
 
 ```G1ANT
 dialog ‴Twitter Android Features with G1ANT Studio‴
