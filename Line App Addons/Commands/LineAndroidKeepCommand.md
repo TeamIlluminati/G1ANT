@@ -23,7 +23,7 @@ This command allows the User to keep control of his MEMO's on LINE Android Appli
 
 For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormessage` and `errorresult` arguments, see [Common Arguments](https://manual.g1ant.com/link/G1ANT.Manual/appendices/common-arguments.md) page.
 
-#Sequence of Operation
+# Sequence of Operation
 1. The Robot opens the Android Instance and logs in with the phone number.
 2. After Successful Authentication, the Robot will take the user to the memo section where he can draft his own memos and store it for future reference. 
 
