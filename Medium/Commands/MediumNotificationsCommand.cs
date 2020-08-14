@@ -8,9 +8,9 @@ using G1ANT.Language;
 namespace G1ANT.Addon.Medium
 {
     [Command(Name = "medium.notifications", Tooltip = "Helps the user view his or her notifications")]
-    class NotificationsCommand :Command
+    class MediumNotificationsCommand :Command 
     {
-        public NotificationsCommand(AbstractScripter scripter): base(scripter)
+        public MediumNotificationsCommand(AbstractScripter scripter): base(scripter)
         {
 
         }
