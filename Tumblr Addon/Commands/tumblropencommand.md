@@ -1,4 +1,4 @@
-# amzon.login
+# tumblr.open
 
 ## Syntax
 
