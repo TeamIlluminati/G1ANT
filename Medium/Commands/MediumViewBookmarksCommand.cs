@@ -8,9 +8,9 @@ using G1ANT.Language;
 namespace G1ANT.Addon.Medium
 {
     [Command(Name = "medium.bookmarks", Tooltip = "Helps view the bookmarks")]
-    class ViewBookmarksCommand : Command
+    class MediumViewBookmarksCommand : Command
     {
-        public ViewBookmarksCommand(AbstractScripter scripter) : base(scripter)
+        public MediumViewBookmarksCommand(AbstractScripter scripter) : base(scripter)
         {
 
         }
