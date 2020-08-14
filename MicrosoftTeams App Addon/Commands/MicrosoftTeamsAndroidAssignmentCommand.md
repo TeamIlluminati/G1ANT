@@ -31,7 +31,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script demonstrates how users can view pending work to be completed in Microsoft Teams using G1ANT Studio/ 
+This simple script demonstrates how users can view pending work to be completed in Microsoft Teams using G1ANT Studio:
 
 ```G1ANT
 dialog message ‴Opening Microsoft Teams‴
