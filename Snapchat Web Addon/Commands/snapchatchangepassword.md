@@ -9,7 +9,7 @@ snapchat.changepword login ⟦text⟧ pword ⟦text⟧
 ## Description
 
 
-This command will open adsbusiness page of snapchat.
+This command will change password of snapchat.
 
 | Argument        | Type | Required | Default Value | Description |
 | --------        | ---- | -------- | ------------- | ----------- |
@@ -27,7 +27,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script will open adsbusiness page of snapchat.
+This simple script changes password of user accoint in snapchat.
 
 ```G1ANT
 snapchat.open
