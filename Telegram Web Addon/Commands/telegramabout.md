@@ -28,6 +28,6 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 This simple script will give further info about telegram web.
 
 ```G1ANT
-telegram.open Type ‴chrome‴ 
+telegram.open
 delay 10
 telegram.about
