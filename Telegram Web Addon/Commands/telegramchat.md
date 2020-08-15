@@ -27,7 +27,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script logins the user in amzon website.
+This simple script sends a chat message to the specified user.
 
 ```G1ANT
 telegram.open Type ‴chrome‴ 
