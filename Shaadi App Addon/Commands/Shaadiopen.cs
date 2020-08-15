@@ -10,7 +10,7 @@ using OpenQA.Selenium.Remote;
 
 namespace G1ANT.Addon.shaadi
 {
-    [Command(Name = "appium.open", Tooltip = "This command initialises shaadi.com.")]
+    [Command(Name = "shaadi.open", Tooltip = "This command initialises shaadi.com.")]
     public class OpenCommand : Language.Command
     {
         private static AndroidDriver<AndroidElement> driver;
