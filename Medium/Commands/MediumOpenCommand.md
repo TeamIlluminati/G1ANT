@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-medium.open
+medium.open type chrome
 ```
 
 ## Description
@@ -12,7 +12,7 @@ This command opens the medium website in the user provided browser.
 
 | Argument         | Type       | Required   | Default Value                                               | Description                                                 |
 | ---------------- | ---------- | ---------- | ----------------------------------------------------------- | ----------------------------- |
-| `Type`          | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)     | no       |   chrome                                                          | Name of browser|
+| `Type`          | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)     | yes       |   chrome                                                          | Name of browser|
 |  `result`  | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)  |no   | ♥result   |Name of a variable where the command's result will be stored |
 | `if`  | [bool](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/BooleanStructure.md) | no       | true                                                        | Executes the command only if a specified condition is true   |
 | `timeout` | [timespan](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TimeSpanStructure.md) | no       | [♥timeoutcommand](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Addon.Core/Variables/TimeoutCommandVariable.md) | Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
@@ -32,7 +32,7 @@ This simple script opens medium  in chrome browser after waiting for 5 seconds .
 
 ```G1ANT
 dialog message ‴Testing Medium for Web broswer‴
-medium.open
+medium.open type chrome
 delay 5
 medium.login email ‴hi@gmail.com‴ 
 ```
