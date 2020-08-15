@@ -30,5 +30,11 @@ This simple script open user's activity tumblr website.
 ```G1ANT
 tumblr.open
 delay 10
+tumblr.email email ‴test@gmail.com‴
+delay 10
+tumblr.loginpword
+delay 10
+tumblr.pword pword ‴password‴
+delay 10
 tumblr.activity
 ```
