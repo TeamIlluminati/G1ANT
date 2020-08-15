@@ -9,7 +9,7 @@ telegram.addgroup add ⟦text⟧
 ## Description
 
 
-This command will sign-in user into amazon website.
+This command will add required users to form a group in telegram app.
 
 | Argument        | Type | Required | Default Value | Description |
 | --------        | ---- | -------- | ------------- | ----------- |
