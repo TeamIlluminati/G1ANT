@@ -9,7 +9,7 @@ tumblr.account
 ## Description
 
 
-This command will open opens user account details for additional information.
+This command will open user account details for additional information.
 
 | Argument        | Type | Required | Default Value | Description |
 | --------        | ---- | -------- | ------------- | ----------- |
