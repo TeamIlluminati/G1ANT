@@ -28,5 +28,5 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 This simple script opens tumblr website.
 
 ```G1ANT
-tumblr.open Type ‴chrome‴ 
+tumblr.open 
 ```
