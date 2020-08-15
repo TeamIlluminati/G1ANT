@@ -30,6 +30,6 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 This simple script will create a group with the specified user and end user.
 
 ```G1ANT
-telegram.open Type ‴chrome‴ 
+telegram.open
 delay 10
 telegram.group name ‴John‴ grpname ‴Friends‴
