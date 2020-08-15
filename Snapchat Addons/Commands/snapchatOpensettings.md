@@ -30,7 +30,7 @@ This simple script opens snapchat app settings.
 ```G1ANT
 snapchat.open
 delay 10
-snapchat.login email
+snapchat.login email ‴test@gmail.com‴ pword ‴passwordtest‴
 delay 10
 snapchat.settings
 ```
