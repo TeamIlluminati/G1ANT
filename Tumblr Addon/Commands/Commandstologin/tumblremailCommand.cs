@@ -26,9 +26,7 @@ namespace G1ANT.Addon.tumblr
             [Argument(Required = true, Tooltip = "Enter the Login e-mail ID here")]
             public TextStructure email { get; set; } = new TextStructure();
 
-            [Argument(Required = true, Tooltip = "Enter the password here")]
-            public TextStructure pword { get; set; } = new TextStructure();
-
+            
             
         }
         public void Execute(Arguments arguments)
