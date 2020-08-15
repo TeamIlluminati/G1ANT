@@ -31,4 +31,4 @@ This simple script searches the user and opens the chat box.
 ```G1ANT
 telegram.open  
 delay 10
-telegram.search email ‴John‴
+telegram.search search ‴John‴
