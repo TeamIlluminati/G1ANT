@@ -28,6 +28,6 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 This simple script opens the features web page.
 
 ```G1ANT
-viber.open Type ‴chrome‴ 
+viber.open
 delay 10
 viber.features
