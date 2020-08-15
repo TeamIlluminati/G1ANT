@@ -30,5 +30,7 @@ This simple script allows the user to login through password.
 ```G1ANT
 tumblr.open
 delay 10
+tumblr.email email ‴test@gmail.com‴
+delay 10
 tumblr.loginpword
 ```
