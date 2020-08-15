@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G1ANT.Addon.shaadi.com", "G1ANT.Addon.shaadi.com.csproj", "{A9198F59-EB8E-4DF0-B924-A84770308C9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9198F59-EB8E-4DF0-B924-A84770308C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9198F59-EB8E-4DF0-B924-A84770308C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9198F59-EB8E-4DF0-B924-A84770308C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9198F59-EB8E-4DF0-B924-A84770308C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E19B7BD0-A047-48DE-9C7A-EEEA918CD848}
+	EndGlobalSection
+EndGlobal
