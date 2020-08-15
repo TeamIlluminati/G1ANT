@@ -27,7 +27,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script changes password of user accoint in snapchat.
+This simple script changes password of user account in snapchat.
 
 ```G1ANT
 snapchat.open
