@@ -29,6 +29,6 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 This simple script searches the location.
 
 ```G1ANT
-uber.open Type ‴chrome‴ 
+uber.open
 delay 10
 uber.location search ‴Googleplex‴
