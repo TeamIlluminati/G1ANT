@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-quora.open 
+quora.open type ⟦text⟧
 ```
 
 ## Description
@@ -32,7 +32,7 @@ This simple script opens quora in chrome browser .
 
 ```G1ANT
 dialog message ‴Testing out Quora‴
-quora.open
+quora.open type chrome
 delay 10
 dialog message ‴Quora is open‴
 ```
