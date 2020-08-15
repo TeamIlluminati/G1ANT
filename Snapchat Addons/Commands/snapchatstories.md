@@ -30,7 +30,7 @@ This simple script opens snapchat app.
 ```G1ANT
 snapchat.open
 delay 10
-snapchat.login login
+snapchat.login email ‴test@gmail.com‴ pword ‴passwordtest‴
 delay 10
 snapchat.stories
 ```
