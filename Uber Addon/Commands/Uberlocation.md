@@ -32,4 +32,8 @@ This simple script types the location to where you want to travel.
 ```G1ANT
 uber.open
 delay 10
+uber.phone phno ‴999999999‴
+delay 10
+uber.pword pword ‴password‴
+delay 10
 uber.location where ‴Visakhapatnam‴ to ‴Kakinada‴
