@@ -26,7 +26,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens snapchat app.
+This simple script opens chat messages of the user.
 
 ```G1ANT
 snapchat.open
