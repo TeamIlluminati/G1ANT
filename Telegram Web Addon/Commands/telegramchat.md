@@ -30,6 +30,6 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 This simple script sends a chat message to the specified user.
 
 ```G1ANT
-telegram.open Type ‴chrome‴ 
+telegram.open
 delay 10
 telegram.chat search ‴John‴ chat ‴hi‴
