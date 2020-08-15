@@ -30,6 +30,6 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 This simple script opens the message you want to see in the chat.
 
 ```G1ANT
-telegram.open Type ‴chrome‴ 
+telegram.open
 delay 10
 telegram.messages search ‴John‴ message ‴Hi‴
