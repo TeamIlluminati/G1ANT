@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-twitter.open 
+twitter.open type ⟦text⟧
 ```
 
 ## Description
@@ -12,7 +12,7 @@ This command opens Twitter website in the user provided browser. Since the defau
 
 | Argument         | Type       | Required   | Default Value                                               | Description                                                 |
 | ---------------- | ---------- | ---------- | ----------------------------------------------------------- | ----------------------------- |
-| `Type`          | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)     | no        |   chrome                                                          | Name of browser|
+| `Type`          | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)     | yes        |   chrome                                                          | Name of browser|
 |  `result`  | [text](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TextStructure.md)  |no   | ♥result   |Name of a variable where the command's result will be stored |
 | `if`  | [bool](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/BooleanStructure.md) | no       | true                                                        | Executes the command only if a specified condition is true   |
 | `timeout` | [timespan](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Language/Structures/TimeSpanStructure.md) | no       | [♥timeoutcommand](https://manual.g1ant.com/link/G1ANT.Language/G1ANT.Addon.Core/Variables/TimeoutCommandVariable.md) | Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
@@ -29,6 +29,6 @@ This simple script opens twitter webpage in Google Chrome
 
 ```G1ANT
 dialog ‴Twitter Features with G1ANT Studio‴
-twitter.open
+twitter.open type chrome
 delay 5
 ```
