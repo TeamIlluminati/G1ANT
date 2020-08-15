@@ -31,4 +31,4 @@ This simple script adds a contact to viber app.
 ```G1ANT
 viber.open Type ‴chrome‴ 
 delay 10
-viber.addcontact number ‴test@gmail.com‴ name ‴passwordtest‴
+viber.addcontact number ‴999999999‴ name ‴John‴
