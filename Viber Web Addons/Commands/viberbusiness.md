@@ -28,6 +28,6 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 This simple script will open the business page of viber web.
 
 ```G1ANT
-viber.open Type ‴chrome‴ 
+viber.open
 delay 10
 viber.business
