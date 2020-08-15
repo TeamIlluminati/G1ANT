@@ -31,4 +31,6 @@ This simple script logins the user account by typing password after you enter ot
 ```G1ANT
 uber.open
 delay 10
+uber.phone phno ‴999999999‴
+delay 10
 uber.pword pword ‴password‴
