@@ -9,7 +9,7 @@ telegram.open
 ## Description
 
 
-This command will sign-in user into amazon website.
+This command will open into telegram website.
 
 | Argument        | Type | Required | Default Value | Description |
 | --------        | ---- | -------- | ------------- | ----------- |
