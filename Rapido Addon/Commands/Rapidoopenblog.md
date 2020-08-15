@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-rapido.notifications
+rapido.blog
 ```
 
 ## Description
