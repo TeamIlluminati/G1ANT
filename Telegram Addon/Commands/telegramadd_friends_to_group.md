@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-amazon.login email ⟦text⟧ pword ⟦text⟧
+telegram.addgroup add ⟦text⟧
 ```
 
 ## Description
