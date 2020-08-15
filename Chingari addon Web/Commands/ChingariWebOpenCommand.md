@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-chingari.open Type ⟦text⟧
+chingari.open type ⟦text⟧
 ```
 
 ## Description
@@ -33,6 +33,6 @@ This simple script opens chingari in chrome browser after waiting for 5 seconds 
 ```G1ANT
 dialog message ‴Testing out Chingari‴‴ 
 delay 5
-chingari.open
+chingari.open type chrome
 ```
 
