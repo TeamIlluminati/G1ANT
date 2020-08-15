@@ -26,7 +26,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens settings of user's tumblr profile.
+This simple scriptfollows the profile specified in the text by the user.
 
 ```G1ANT
 tumblr.open
