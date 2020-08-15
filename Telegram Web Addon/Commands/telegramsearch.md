@@ -29,6 +29,6 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 This simple script searches the text that the user has specified.
 
 ```G1ANT
-telegram.open Type ‴chrome‴ 
+telegram.open
 delay 10
 telegram.search search ‴John‴
