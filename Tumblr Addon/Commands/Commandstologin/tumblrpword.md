@@ -3,7 +3,7 @@
 ## Syntax
 
 ```G1ANT
-tumblr.pword
+tumblr.pword pword ⟦text⟧
 ```
 
 ## Description
