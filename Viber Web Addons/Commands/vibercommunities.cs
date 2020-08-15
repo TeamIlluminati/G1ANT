@@ -13,7 +13,7 @@ using System;
 
 namespace G1ANT.Addon.viber
 {
-    [Command(Name = "viber.communitites", Tooltip = "This command opens communities page")]
+    [Command(Name = "viber.communities", Tooltip = "This command opens communities page")]
     public class vibercommunitiesCommand : Command
     {
         public class Arguments : SeleniumCommandArguments
