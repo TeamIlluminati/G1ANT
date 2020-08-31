@@ -35,7 +35,7 @@ if ♥B==‴Y‴
 else ♥B==‴N‴
     delay 10
 end 
-if ♥c==Y
+if ♥c==‴Y‴
     yatra.cab op ‴1‴ depart ♥from destination ♥to departdate ♥myDate search hi
     delay 10 
 else if ♥c==‴N‴
