@@ -1,0 +1,95 @@
+addon core version 4.107.2.0
+addon language version 4.106.2.0
+addon gmail version 1.0.0.0
+addon googledocs version 4.103.0.0
+addon yatra version 1.0.0.0
+gmail.open type chrome search
+♥login = ♥credential⟦gmail:login⟧
+♥password =  ♥credential⟦gmail:password⟧
+gmail.login email ♥login pword ♥password search
+delay 20
+gmail.sendmails to ‴name@company.com‴ subject ‴Holiday Tour Plan‴ message ‴ Dear Sir, We are from G1ANT company who are responsible for organizing your holiday package. We provide both complete as well as user preferred packages for a nominal price. However, your package rates vary with your destinations. We will prefer the most optimized package tour for your preference. Please fill the Google Form Link and Update your choices (URL : https://forms.gle/muqX3TUMioBiDwAQ7). We will reach you soon with the best package. Have a great trip. Regards, XYZ‴ search
+googlesheet.open 1Bop8XoCFhqUG3BwIMm_FtfWsGPboDKqUSvEmziqWhak result ♥id
+googlesheet.getvalue C5:C8 result ♥values
+if ♥values == "Yatra"
+    yatra.login email ‴rpainternsg1ant@gmail.com‴ pword ‴g1antintern‴ search
+    delay 20
+    yatra.flight op ‴1‴ depart ‴Chennai‴ arrival ‴Delhi‴ departdate ‴13/09/20‴ returndate ‴23/09/20‴ cabin  ‴Economy‴ search
+    delay 20
+    yatra.hotel hotel ‴Thiruvanmiyur‴ checkin ‴14/09/20‴ checkout ‴22/09/20‴ search
+    delay 10
+    dialog ‴Hotel checked!‴
+    delay 10
+    yatra.cabs op ‴2‴ depart ‴Thiruvanmiyur‴ destination ‴Parry's corner‴ departdate ‴14/09/20‴ returndate ‴15/09/20‴ search
+    yatra.package depart ‴Chennai‴ arrival ‴Delhi‴ search
+    delay 10
+   else
+-ixigo
+    selenium.open type chrome url https://www.ixigo.com/
+    delay 5
+    window ✱ixigo✱ style maximize
+    selenium.click search //*[@id="content"]/div/div[1]/header/div/div[2]/span/span by xpath
+    delay 5
+    selenium.click search //*[@id="content"]/div/div[5]/div/div/div[2]/div[2]/div/div[3]/div[1]/span[2]/input by xpath
+    keyboard ‴crazyanonymous1210@gmail.com‴
+    selenium.click search //*[@id="content"]/div/div[5]/div/div/div[2]/div[2]/div/div[3]/div[2]/button/div by xpath
+    keyboard ‴OTP‴
+    selenium.click search //*[@id="content"]/div/div[5]/div/div/div[2]/div[2]/div/button/div by xpath
+-flights
+    selenium.click search //*[@id="content"]/div/div[1]/div[6]/div/div/div[1]/div/div[1]/input by xpath
+    keyboard ‴Delhi⋘enter⋙‴
+    selenium.click search //*[@id="content"]/div/div[1]/div[6]/div/div/div[3]/div/div[1]/input by xpath
+    keyboard ‴Mumbai⋘enter⋙‴
+-return
+-selenium.click search //*[@id="content"]/div/div[1]/div[6]/div/div/div[4]/div/div[2]/div/input by xpath
+    selenium.click search //*[@id="content"]/div/div[1]/div[6]/div/div/div[6]/button/div by xpath
+    delay 5
+    selenium.click search //*[@id="content"]/div/div[4]/div[1]/div[1]/div[3]/div/div/div[1]/a[2]/div[2]/div by xpath
+-booking
+    delay 5
+    selenium.click search //*[@id="content"]/div/div[4]/div[1]/div[2]/div[3]/div/div[3]/div/div[2]/button/div by xpath
+    delay 5
+    selenium.click search //*[@id="content"]/div/div[4]/div[1]/div[2]/div[3]/div[2]/div[2]/div/div[1]/div[2]/div[2]/div[2]/button by xpath
+    delay 5
+    selenium.click search //*[@id="content"]/div/div[2]/div[2]/div[3]/div/button/div by xpath
+    delay 5
+    selenium.click search //*[@id="content"]/div/div[2]/div[1]/div[2]/div/div/div[2]/div[1]/div/div[2]/div[1]/div[1]/input by xpath
+    delay 5
+    if ♥title=="Mr"
+        selenium.click search //*[@id="content"]/div/div[2]/div[1]/div[2]/div/div/div[2]/div[1]/div/div[2]/div[1]/ul/li[1] by xpath
+    else if ♥title=="Ms"
+        selenium.click search //*[@id="content"]/div/div[2]/div[1]/div[2]/div/div/div[2]/div[1]/div/div[2]/div[1]/ul/li[2] by xpath
+        delay 5
+    else
+        selenium.click search //*[@id="content"]/div/div[2]/div[1]/div[2]/div/div/div[2]/div[1]/div/div[2]/div[1]/ul/li[3] by xpath
+    end            
+    selenium.click search //*[@id="content"]/div/div[2]/div[1]/div[2]/div/div/div[2]/div[1]/div/div[2]/div[2]/div/input by xpath
+    keyboard ‴First name‴
+    delay 5
+    selenium.click search //*[@id="content"]/div/div[2]/div[1]/div[2]/div/div/div[2]/div[1]/div/div[2]/div[3]/div/input by xpath
+    keyboard ‴Last name‴
+    selenium.click search //*[@id="content"]/div/div[2]/div[1]/div[2]/div/div/div[2]/div[1]/div/div[2]/div[4]/div/div[1]/input by xpath
+    keyboard ‴Nationality‴
+    selenium.click search //*[@id="content"]/div/div[2]/div[2]/div[2]/div[2]/div/button/div by xpath
+-stay
+    selenium.click search //*[@id="content"]/div/div[1]/header/div/span[2]/nav/span[2]/a by xpath
+    selenium.click search //*[@id="content"]/div/div[1]/div[6]/div/div/div[1]/div/div[1]/input by xpath
+    keyboard ‴Destination name‴
+    selenium.click search //*[@id="content"]/div/div[1]/div[6]/div/div/div[4]/button/div by xpath
+    delay 5
+    selenium.click search //*[@id="content"]/div/div[5]/ul/li[1]/div[4]/div/div[3]/button/div by xpath
+    delay 5
+    selenium.click search //*[@id="hprt_nos_select_32954204_86019622_2_42_0"] by xpath
+    delay 5
+    keyboard ‴number of persons for staying‴
+    selenium.click search //*[@id="b_tt_holder_10"] by xpath
+    delay 5
+- Send the confirmation mail as URL 
+gmail.login email ♥login pword ♥password search
+delay 20
+gmail.sendmails to ‴name@company.com‴ subject ‴Holiday Tour Plan‴ message ‴Sir, as per your requirements, we have sent you your dream package in the link attached (#attachlink). Kindly go through the details and please feel free to call us anytime soon. Thank you for choosing G1ANT Travel. We hope you enjoy your holiday. Thanks! Regards, XYZ‴
+
+
+
+
+
