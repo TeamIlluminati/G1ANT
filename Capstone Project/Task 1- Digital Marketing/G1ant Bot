@@ -1,0 +1,179 @@
+addon selenium version 4.104.0.0
+addon googledocs version 4.103.0.0
+addon gmail version 1.0.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+gmail.open type chrome search
+♥login = ♥credential⟦gmail:login⟧
+♥password =  ♥credential⟦gmail:password⟧
+delay 10
+gmail.login email ♥login pword ♥password search
+delay 20
+gmail.sendmails to ‴name@company.com‴ subject ‴Permission to post applications on your platform‴ message ‴ Sir,I introduce myself as XYZ. We wish to promote your product in platforms. Kindly fill the google form and wait about 6 hours to around 1 business day to ensure your product advertisements published.(Google Form: https://docs.google.com/forms/d/e/1FAIpQLSdS6o8mqikXUX1Q7MjLVv8uzP2h-utPtzJzXISuRTt7oJaffA/viewform?usp=sf_link⋘enter⋙Thank You,⋘enter⋙Best Regards⋘enter⋙Team XYZ‴ search
+googlesheet.open 13i1DHjxRHyENDTLS-BO2-X8E3JQNXxpRvwRkoW7HECU result ♥id
+googlesheet.getvalue C5:C8 result ♥values
+dialog ♥values
+♥i=1
+for ♥i from 1 to 3
+  if ♥values⟦♥i⟧=="F"
+    ♥i = ♥i + 9
+    ♥login = ♥credential⟦facebook:login⟧
+    ♥pword = ♥credential⟦facebook:password⟧
+    --post
+    selenium.open chrome url https://www.facebook.com/?stype=lo&jlou=Afdgr0DRe0cYT8MppLqH4vFkKyFM5A6ZWa7Z7Mco-CslDTHYzmESJZQdHWi7Q--_6h-Oq2uRCoQxkux1pdSTH2b-cmVKT4Aq1tieQGSpK26hJw&smuh=4398&lh=Ac9mPzSsD86Dze6x
+    delay 5
+    selenium.type ♥login search //*[@id="email"] by xpath
+    delay 5
+    selenium.type ♥pword search //*[@id="pass"] by xpath
+    delay 5
+    selenium.click search //*[@id="u_0_b"] by xpath
+    delay 15
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[2]/div[4]/div[1]/div[3]/span/div/i by xpath
+    delay 5
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[2]/div[4]/div[2]/div/div/div[1]/div[1]/div/div/div/div/div/div/div/div[2]/div[1]/div/div[1]/div[1]/div by xpath
+    delay 10
+    keyboard ‴advertising the product for post....‴
+    selenium.click search //*[@id="facebook"]/body/div[11]/div[1]/div/div[2]/div/div/div/form/div/div[1]/div/div[2]/div[3]/div[2]/div by xpath
+    --page
+    delay 15
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[2]/div[4]/div[1]/div[3]/span/div/i by xpath
+    delay 15
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[2]/div[4]/div[2]/div/div/div[1]/div[1]/div/div/div/div/div/div/div/div[2]/div[4]/a/div[1]/div[1]/div/i by xpath
+    delay 5
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[3]/div/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div[2]/div/div/div[1]/div/div[2]/label/div/div by xpath
+    keyboard ‴Page name‴
+    delay 5
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[3]/div/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div[2]/div/div/div[2]/div/div[1]/label/div/div/div/div/div/div by xpath
+    keyboard ‴Category⋘ENTER⋙‴
+    delay 5
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[3]/div/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div[2]/div/div/div[3]/div/div/label/div/div by xpath
+    keyboard ‴Description‴
+    delay 5
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[3]/div/div/div[1]/div[1]/div[1]/div/div[3]/div[2]/div/div/div[2] by xpath
+    --fb advertising
+    selenium.newtab chrome url https://www.facebook.com/business/ads timeout 10000
+    delay 10
+    selenium.click search //*[@id="u_0_g9"]/div[3]/div[1]/div[2]/div by xpath timeout 10000
+    delay 20
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[3]/div/div/div[1]/div[1]/div[2]/div/div/div/div/div[2]/div[1]/div/div/a/div[1]/div[1]/div by xpath timeout 10000
+    delay 10
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[4]/div/div/div[1]/div/div[3]/div[2]/div/div/div[3]/div/div[3]/div/div[1]/span[1]/div/div/div/div/div/div[2]/div[1]/div/div/label/div/div by xpath timeout 10000
+    keyboard ‴⋘enter⋙Hi‴
+    -run ad continuously
+    -selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[4]/div/div/div[1]/div/div[3]/div[2]/div/div/div[3]/div/div[3]/div/div[1]/div[1]/div/div/span[1]/div/div/div[2]/div/div[2]/div/div[1]/div/div[2]/div/div/i by xpath timeout 10000
+    -run for n days continuously
+    -selenium.click search //*[@id="jsc_c_48"] by xpath timeout 10000
+    -keyboard ‴⋘backspace 2⋙n‴
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[4]/div/div/div[1]/div/div[3]/div[2]/div/div/div[3]/div/div[4]/div/div/div/div/div/div[2]/div by xpath timeout 10000
+    delay 5
+    -GST
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[4]/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[1]/div[3]/div/div[1]/div[2]/div[1]/div/div/div/div/div/label/div/div[1] by xpath timeout 10000
+    keyboard ‴GST‴
+    delay 5
+    -PAN
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[4]/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[1]/div[3]/div/div[1]/div[2]/div[2]/div/div/div/div/div/label/div by xpath timeout 10000
+    keyboard ‴PAN‴
+    delay 5
+    -Business name
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[4]/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[1]/div[3]/div/div[2]/div[2]/div/div/div/div/div/div/label/div/div[1] by xpath timeout 10000
+    keyboard ‴Business name‴
+    delay 5
+    -Street address 1
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[4]/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[1]/div[3]/div/div[3]/div[2]/div[1]/div/div/div/div/div/label/div/div[1] by xpath timeout 10000
+    keyboard ‴address1‴
+    delay 5
+-Street address 2
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[4]/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[1]/div[3]/div/div[3]/div[2]/div[2]/div/div/div/div/div/label/div/div by xpath timeout 10000
+    keyboard ‴address2‴
+    delay 5
+    -City
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[4]/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[1]/div[3]/div/div[3]/div[2]/div[3]/div/div/div/div/div/label/div/div[1] by xpath timeout 10000
+    keyboard ‴city‴
+    delay 5
+    -State
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[4]/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[1]/div[3]/div/div[3]/div[2]/div[4]/div/div/div/div/div/div/label/div/div[1] by xpath timeout 10000
+    keyboard ‴state‴
+    delay 5
+    -Pin code
+    selenium.click search //*[@id="mount_0_0"]/div/div[1]/div[1]/div[4]/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[1]/div[3]/div/div[3]/div[2]/div[5]/div/div/div/div/div/label/div/div[1] by xpath timeout 10000
+    keyboard ‴pincode‴
+    delay 5
+    -paytm
+    selenium.click search //*[@id="facebook"]/body/div[5]/div[2]/div/div/div/div/div/div/div[2]/div/div[4] by xpath timeout 10000
+    delay 5
+    selenium.click search //*[@id="facebook"]/body/div[5]/div[2]/div/div/div/div/div/div/div[3]/span[2]/div/div[2]/button by xpath timeout 10000
+    delay 5
+    selenium.click search //*[@id="AdsPaymentDisclaimerAcceptButton"] by xpath timeout 10000
+    delay 5
+    selenium.click search //*[@id="u_a_2"] by xpath timeout 10000
+    delay 5
+    selenium.click search //*[@id="app"]/main/div[2]/div[3]/section/div/span[1]/label/input by xpath timeout 10000
+    delay 5
+    selenium.click search //*[@id="inp"] by xpath timeout 10000
+    keyboard ‴number‴
+  else if ♥values⟦♥i⟧=="L"
+    ♥i = ♥i + 8
+    ♥login = ♥credential⟦linkedin:login⟧
+    ♥pword = ♥credential⟦linkedin:password⟧
+    selenium.open type chrome url       https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin
+    delay 2
+    selenium.type text ♥login search //*[@id="username"] by xpath
+    delay 2
+    selenium.type text ♥pword search //*[@id="password"] by xpath
+    delay 2
+    selenium.click search //*[@id="app__container"]/main/div[2]/form/div[3]/button by xpath
+    delay 20
+    selenium.click search //*[@id="ember45"]/div/div[1]/button by xpath
+    delay 2
+    keyboard ‴advertising the product....‴
+    delay 2
+    selenium.click search //*[@id="ember547"] by xpath
+   else if ♥values⟦♥i⟧=="I"
+    ♥i = ♥i + 9
+    -need to have a facebook account to open instagram and which is already connected
+    appium.open apppackage com.instagram.android appactivity com.instagram.mainactivity.MainActivity
+    delay 10
+    appium.click search     /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextSwitcher by xpath
+    delay 25
+    appium.click search //android.widget.ImageView[@content-desc="Camera"] by xpath
+    delay 8
+    appium.click search 	/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.Button[1] by xpath
+    delay 5
+    appium.click search 	/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.Button[1] by xpath
+    delay 5
+    appium.click search 	/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.Button[1] by xpath
+    delay 5
+    appium.click search 	/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.Button[1] by xpath
+    delay 8
+    appium.click search ‴//android.view.View[@content-desc="Create mode button"]‴ by xpath
+    delay 5
+    appium.click search /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[2] by xpath
+    delay 5
+    --advt
+    keyboard ‴advt about product...‴
+    appium.button back
+    delay 2
+    appium.click search ‴//android.widget.ImageView[@content-desc="Save to Device"]‴ by xpath
+    delay 15
+    appium.button back
+    delay 5
+    appium.click search 	/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[1]/android.widget.TextView by xpath
+    delay 5
+    appium.button back
+    delay 5
+    appium.click search //android.widget.FrameLayout[@content-desc="Camera"] by xpath
+    delay 5
+    appium.click search //android.widget.TextView[@content-desc="Next"] by xpath
+    delay 5
+    appium.click search //android.widget.TextView[@content-desc="Next"] by xpath
+    delay 5
+    appium.click search /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout/android.widget.EditText by xpath
+    delay 5
+    -caption
+    keyboard ‴caption‴
+    delay 5
+    appium.click search //android.widget.TextView[@content-desc="Next"] by xpath
+   else
+    break
+  end
+end
