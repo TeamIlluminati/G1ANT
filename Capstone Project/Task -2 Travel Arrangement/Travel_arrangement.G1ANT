@@ -110,8 +110,3 @@ end
 gmail.login email ♥login pword ♥password search
 delay 20
 gmail.sendmails to ‴name@company.com‴ subject ‴Holiday Tour Plan‴ message ‴Sir, as per your requirements, we have sent you your dream package in the link attached (#attachlink). Kindly go through the details and please feel free to call us anytime soon. Thank you for choosing G1ANT Travel. We hope you enjoy your holiday. Thanks! Regards, XYZ‴
-
-
-
-
-
