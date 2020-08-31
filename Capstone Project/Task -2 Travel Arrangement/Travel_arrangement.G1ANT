@@ -43,7 +43,6 @@ else if ♥c==‴N‴
 end    
 yatra.package depart ♥from arrival ♥to search hi
 delay 10
-else
 -ixigo
     selenium.open type chrome url https://www.ixigo.com/
     delay 5
